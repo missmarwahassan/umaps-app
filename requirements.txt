@@ -1,0 +1,8 @@
+pandas
+openpyxl
+streamlit
+altair
+duckdb
+rapidfuzz
+vega_datasets
+pycountry
