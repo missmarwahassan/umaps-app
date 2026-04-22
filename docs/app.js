@@ -8,6 +8,68 @@ const state = {
 };
 
 const formatNumber = (value) => new Intl.NumberFormat("en-US").format(value ?? 0);
+const cohortSortOrder = { Annual: 0, Winter: 1, Fall: 2 };
+
+function getCurrentCohortMeta(records) {
+  const today = new Date();
+  const month = today.getMonth();
+  const year = today.getFullYear();
+  const term = month >= 7 ? "Fall" : "Winter";
+  const matchingTermRecords = records.filter(
+    (record) => record.cohortYear === year && record.semester === term
+  );
+  const fallbackRecords = records.filter((record) => record.cohortYear === year);
+  const activeRecords = matchingTermRecords.length ? matchingTermRecords : fallbackRecords;
+  const scholarCount = new Set(activeRecords.map((record) => record.scholar_id)).size;
+
+  return {
+    year,
+    term,
+    label: `${term} ${year}`,
+    scholarCount,
+  };
+}
+
+function getIncomingCohortMeta(records, currentCohort) {
+  const cohorts = records
+    .filter((record) => record.cohortYear && record.semester)
+    .map((record) => ({
+      year: record.cohortYear,
+      term: record.semester,
+      scholarId: record.scholar_id,
+    }));
+
+  const uniqueCohorts = Array.from(
+    new Map(
+      cohorts.map((cohort) => [`${cohort.term}-${cohort.year}`, { year: cohort.year, term: cohort.term }])
+    ).values()
+  ).sort((a, b) => {
+    if (a.year !== b.year) return a.year - b.year;
+    return (cohortSortOrder[a.term] ?? 9) - (cohortSortOrder[b.term] ?? 9);
+  });
+
+  const currentIndex = uniqueCohorts.findIndex(
+    (cohort) => cohort.year === currentCohort.year && cohort.term === currentCohort.term
+  );
+  const incoming = currentIndex >= 0 ? uniqueCohorts[currentIndex + 1] : null;
+  if (!incoming) {
+    return {
+      label: "No later cohort in data",
+      scholarCount: 0,
+    };
+  }
+
+  const scholarCount = new Set(
+    cohorts
+      .filter((cohort) => cohort.year === incoming.year && cohort.term === incoming.term)
+      .map((cohort) => cohort.scholarId)
+  ).size;
+
+  return {
+    label: `${incoming.term} ${incoming.year}`,
+    scholarCount,
+  };
+}
 
 async function loadDashboard() {
   const response = await fetch("./data/dashboard.json");
@@ -23,16 +85,22 @@ async function loadDashboard() {
 }
 
 function renderChrome() {
-  const { metrics } = state.data;
-  const yearRange = metrics.yearRange.start && metrics.yearRange.end
-    ? `${metrics.yearRange.start}-${metrics.yearRange.end}`
-    : "Range unavailable";
-  const latestCohort = metrics.latestCohort.year
-    ? `${formatNumber(metrics.latestCohort.scholars)} scholars`
-    : "No cohort data";
+  const { metrics, records } = state.data;
+  const currentCohort = getCurrentCohortMeta(records);
+  const incomingCohort = getIncomingCohortMeta(records, currentCohort);
 
-  document.getElementById("year-range").textContent = yearRange;
-  document.getElementById("latest-cohort").textContent = latestCohort;
+  document.getElementById("year-range").textContent = `${metrics.yearRange.start}-${metrics.yearRange.end}`;
+  document.getElementById("current-cohort").innerHTML = `Current Cohort:<br>${currentCohort.label}`;
+  document.getElementById("current-cohort-detail").textContent = `${formatNumber(
+    currentCohort.scholarCount
+  )} scholars`;
+  document.getElementById("current-cohort-label").textContent = currentCohort.label;
+  document.getElementById("current-cohort-count").textContent = `${formatNumber(
+    currentCohort.scholarCount
+  )} scholars`;
+  document.getElementById("latest-cohort-text").textContent = `${incomingCohort.label} · ${formatNumber(
+    incomingCohort.scholarCount
+  )} scholars`;
 
   const metricCards = [
     ["Unique scholars", formatNumber(metrics.uniqueScholars)],
@@ -87,18 +155,31 @@ function renderAll() {
   renderBarList("top-countries", state.data.series.topCountries, "scholars", "country_of_origin");
   renderBarList("top-institutions", state.data.series.topInstitutions, "scholars", "institution_home");
   renderBarList("top-hosts", state.data.series.topHosts, "participations", "host_name_raw");
-  renderLatestCohort();
   renderDirectory();
 }
 
 function renderBarList(targetId, items, valueKey, labelKey) {
   const max = Math.max(...items.map((item) => item[valueKey]), 1);
   document.getElementById(targetId).innerHTML = items
-    .map(
-      (item) => `
-        <div class="bar-row">
+    .map((item) => {
+      const institutionNote =
+        targetId === "top-institutions" && item.firstYear
+          ? `<span class="bar-context">Partnership established in: ${item.firstYear}</span>`
+          : "";
+      const tooltip =
+        targetId === "top-hosts" && item.hostYears?.length
+          ? ` title="Hosted in: ${item.hostYears
+              .map((entry) => (entry.count > 1 ? `${entry.year} (${entry.count})` : `${entry.year}`))
+              .join(", ")}"`
+          : "";
+
+      return `
+        <div class="bar-row"${tooltip}>
           <div class="bar-meta">
-            <span class="bar-label">${item[labelKey]}</span>
+            <div class="bar-copy">
+              <span class="bar-label">${item[labelKey]}</span>
+              ${institutionNote}
+            </div>
             <span class="bar-value">${formatNumber(item[valueKey])}</span>
           </div>
           <div class="bar-track">
@@ -106,29 +187,7 @@ function renderBarList(targetId, items, valueKey, labelKey) {
           </div>
         </div>
       `
-    )
-    .join("");
-}
-
-function renderLatestCohort() {
-  const { latestCohort, latestCohortCountries } = state.data.series;
-  const latestYear = state.data.metrics.latestCohort.year;
-  const container = document.getElementById("latest-cohort-countries");
-
-  if (!latestYear || !latestCohortCountries.length) {
-    container.innerHTML = `<div class="empty-state">No latest cohort geography is available yet.</div>`;
-    return;
-  }
-
-  container.innerHTML = latestCohortCountries
-    .map(
-      (item, index) => `
-        <div class="rank-row">
-          <span class="rank-name">${index + 1}. ${item.country_of_origin}</span>
-          <span class="rank-value">${formatNumber(item.scholars)} scholars in ${latestYear}</span>
-        </div>
-      `
-    )
+    })
     .join("");
 }
 
@@ -140,7 +199,6 @@ function renderLineChart() {
   const margin = { top: 20, right: 24, bottom: 46, left: 42 };
   const plotWidth = width - margin.left - margin.right;
   const plotHeight = height - margin.top - margin.bottom;
-
   const years = data.map((item) => item.cohort_year);
   const maxScholars = Math.max(...data.map((item) => item.scholars), 1);
 
@@ -151,41 +209,29 @@ function renderLineChart() {
   };
 
   const y = (value) => margin.top + plotHeight - (value / maxScholars) * plotHeight;
-
   const linePath = data
     .map((item, index) => `${index === 0 ? "M" : "L"} ${x(item.cohort_year).toFixed(2)} ${y(item.scholars).toFixed(2)}`)
     .join(" ");
-
-  const areaPath = `${linePath} L ${x(years[years.length - 1]).toFixed(2)} ${(margin.top + plotHeight).toFixed(2)} L ${x(years[0]).toFixed(2)} ${(margin.top + plotHeight).toFixed(2)} Z`;
-
-  const yTicks = 4;
-  const tickMarks = Array.from({ length: yTicks + 1 }, (_, index) => Math.round((maxScholars / yTicks) * index));
+  const tickMarks = Array.from({ length: 5 }, (_, index) => Math.round((maxScholars / 4) * index));
 
   svg.innerHTML = `
-    <defs>
-      <linearGradient id="areaFill" x1="0" x2="0" y1="0" y2="1">
-        <stop offset="0%" stop-color="rgba(200, 93, 58, 0.35)" />
-        <stop offset="100%" stop-color="rgba(200, 93, 58, 0.02)" />
-      </linearGradient>
-    </defs>
     ${tickMarks
       .map((tick) => {
         const yPos = y(tick);
         return `
-          <line x1="${margin.left}" y1="${yPos}" x2="${width - margin.right}" y2="${yPos}" stroke="rgba(79,59,46,0.12)" />
-          <text x="${margin.left - 10}" y="${yPos + 4}" text-anchor="end" font-size="11" fill="rgba(101,88,79,1)">${tick}</text>
+          <line x1="${margin.left}" y1="${yPos}" x2="${width - margin.right}" y2="${yPos}" stroke="rgba(0,39,76,0.12)" />
+          <text x="${margin.left - 10}" y="${yPos + 4}" text-anchor="end" font-size="11" fill="rgba(79,96,116,1)">${tick}</text>
         `;
       })
       .join("")}
-    <path d="${areaPath}" fill="url(#areaFill)"></path>
-    <path d="${linePath}" fill="none" stroke="#c85d3a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="${linePath}" fill="none" stroke="#00274c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
     ${data
       .map((item) => {
         const cx = x(item.cohort_year);
         const cy = y(item.scholars);
         return `
-          <circle cx="${cx}" cy="${cy}" r="5" fill="#f8f1e8" stroke="#8d3425" stroke-width="3"></circle>
-          <text x="${cx}" y="${height - 16}" text-anchor="middle" font-size="11" fill="rgba(101,88,79,1)">${item.cohort_year}</text>
+          <circle cx="${cx}" cy="${cy}" r="5" fill="#ffcb05" stroke="#00274c" stroke-width="3"></circle>
+          <text x="${cx}" y="${height - 16}" text-anchor="middle" font-size="11" fill="rgba(79,96,116,1)">${item.cohort_year}</text>
         `;
       })
       .join("")}
@@ -194,14 +240,11 @@ function renderLineChart() {
 
 function getFilteredRecords() {
   const { query, country, year } = state.filters;
-
   return state.data.records.filter((record) => {
     const matchesCountry = !country || record.country === country;
     const matchesYear = !year || String(record.cohortYear) === year;
-
     const haystack = [
       record.name,
-      record.email,
       record.country,
       record.institution,
       record.discipline,
@@ -210,7 +253,6 @@ function getFilteredRecords() {
       .filter(Boolean)
       .join(" ")
       .toLowerCase();
-
     const matchesQuery = !query || haystack.includes(query);
     return matchesCountry && matchesYear && matchesQuery;
   });
@@ -221,7 +263,6 @@ function renderDirectory() {
   document.getElementById("results-count").textContent = `${formatNumber(rows.length)} matching records`;
 
   const body = document.getElementById("directory-body");
-
   if (!rows.length) {
     body.innerHTML = `<tr><td class="empty-state" colspan="6">No records match the current filters.</td></tr>`;
     return;
@@ -235,7 +276,6 @@ function renderDirectory() {
           <td>
             <div class="name-cell">
               <strong>${record.name ?? "Unknown scholar"}</strong>
-              <span>${record.email ?? "No email listed"}</span>
             </div>
           </td>
           <td>${record.cohortYear ?? "—"}</td>
@@ -250,5 +290,5 @@ function renderDirectory() {
 }
 
 loadDashboard().catch((error) => {
-  document.body.innerHTML = `<main class="page-shell"><section class="directory-panel"><h1>Dashboard unavailable</h1><p>${error.message}</p></section></main>`;
+  document.body.innerHTML = `<main class="site-shell"><section class="panel-card"><h1>Dashboard unavailable</h1><p>${error.message}</p></section></main>`;
 });

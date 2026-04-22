@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-22T15:48:02.691986+00:00",
+  "generatedAt": "2026-04-22T21:06:10.268416+00:00",
   "metrics": {
     "uniqueScholars": 289,
     "participations": 290,
-    "countries": 23,
+    "countries": 22,
     "institutions": 152,
     "hosts": 252,
     "yearRange": {
@@ -12,6 +12,8 @@
     },
     "latestCohort": {
       "year": 2027,
+      "term": "Winter",
+      "label": "Winter 2027",
       "scholars": 11
     }
   },
@@ -113,6 +115,593 @@
         "participations": 11
       }
     ],
+    "geographyTimeline": [
+      {
+        "cohort_year": 2008,
+        "country_of_origin": "Ghana",
+        "scholars": 4
+      },
+      {
+        "cohort_year": 2008,
+        "country_of_origin": "South Africa",
+        "scholars": 6
+      },
+      {
+        "cohort_year": 2009,
+        "country_of_origin": "Ghana",
+        "scholars": 8
+      },
+      {
+        "cohort_year": 2009,
+        "country_of_origin": "Liberia",
+        "scholars": 4
+      },
+      {
+        "cohort_year": 2009,
+        "country_of_origin": "South Africa",
+        "scholars": 3
+      },
+      {
+        "cohort_year": 2010,
+        "country_of_origin": "Ghana",
+        "scholars": 4
+      },
+      {
+        "cohort_year": 2010,
+        "country_of_origin": "Liberia",
+        "scholars": 3
+      },
+      {
+        "cohort_year": 2010,
+        "country_of_origin": "South Africa",
+        "scholars": 6
+      },
+      {
+        "cohort_year": 2011,
+        "country_of_origin": "Ghana",
+        "scholars": 4
+      },
+      {
+        "cohort_year": 2011,
+        "country_of_origin": "Liberia",
+        "scholars": 4
+      },
+      {
+        "cohort_year": 2011,
+        "country_of_origin": "South Africa",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2011,
+        "country_of_origin": "Uganda",
+        "scholars": 3
+      },
+      {
+        "cohort_year": 2012,
+        "country_of_origin": "Ghana",
+        "scholars": 4
+      },
+      {
+        "cohort_year": 2012,
+        "country_of_origin": "Liberia",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2012,
+        "country_of_origin": "South Africa",
+        "scholars": 3
+      },
+      {
+        "cohort_year": 2012,
+        "country_of_origin": "Uganda",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2013,
+        "country_of_origin": "Ghana",
+        "scholars": 6
+      },
+      {
+        "cohort_year": 2013,
+        "country_of_origin": "Liberia",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2013,
+        "country_of_origin": "South Africa",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2013,
+        "country_of_origin": "Uganda",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2014,
+        "country_of_origin": "Ghana",
+        "scholars": 6
+      },
+      {
+        "cohort_year": 2014,
+        "country_of_origin": "Liberia",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2014,
+        "country_of_origin": "South Africa",
+        "scholars": 7
+      },
+      {
+        "cohort_year": 2015,
+        "country_of_origin": "Cameroon",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2015,
+        "country_of_origin": "Democratic Republic of the Congo",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2015,
+        "country_of_origin": "Ethiopia",
+        "scholars": 4
+      },
+      {
+        "cohort_year": 2015,
+        "country_of_origin": "Ghana",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2015,
+        "country_of_origin": "South Africa",
+        "scholars": 6
+      },
+      {
+        "cohort_year": 2015,
+        "country_of_origin": "Tanzania",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2015,
+        "country_of_origin": "Uganda",
+        "scholars": 4
+      },
+      {
+        "cohort_year": 2016,
+        "country_of_origin": "Ethiopia",
+        "scholars": 5
+      },
+      {
+        "cohort_year": 2016,
+        "country_of_origin": "Ghana",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2016,
+        "country_of_origin": "Liberia",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2016,
+        "country_of_origin": "Nigeria",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2016,
+        "country_of_origin": "South Africa",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2016,
+        "country_of_origin": "Tanzania",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2016,
+        "country_of_origin": "Uganda",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2017,
+        "country_of_origin": "Ethiopia",
+        "scholars": 6
+      },
+      {
+        "cohort_year": 2017,
+        "country_of_origin": "Ghana",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2017,
+        "country_of_origin": "Liberia",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2017,
+        "country_of_origin": "Nigeria",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2017,
+        "country_of_origin": "South Africa",
+        "scholars": 3
+      },
+      {
+        "cohort_year": 2017,
+        "country_of_origin": "Uganda",
+        "scholars": 3
+      },
+      {
+        "cohort_year": 2017,
+        "country_of_origin": "Zambia",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2018,
+        "country_of_origin": "Ethiopia",
+        "scholars": 4
+      },
+      {
+        "cohort_year": 2018,
+        "country_of_origin": "Gabon",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2018,
+        "country_of_origin": "Ghana",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2018,
+        "country_of_origin": "Nigeria",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2018,
+        "country_of_origin": "Saudi Arabia",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2018,
+        "country_of_origin": "Tanzania",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2018,
+        "country_of_origin": "Uganda",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2019,
+        "country_of_origin": "Ethiopia",
+        "scholars": 3
+      },
+      {
+        "cohort_year": 2019,
+        "country_of_origin": "Ghana",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2019,
+        "country_of_origin": "Liberia",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2019,
+        "country_of_origin": "Nigeria",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2019,
+        "country_of_origin": "South Africa",
+        "scholars": 4
+      },
+      {
+        "cohort_year": 2019,
+        "country_of_origin": "Uganda",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2021,
+        "country_of_origin": "Ethiopia",
+        "scholars": 4
+      },
+      {
+        "cohort_year": 2021,
+        "country_of_origin": "Ghana",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2021,
+        "country_of_origin": "Kenya",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2021,
+        "country_of_origin": "Malawi",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2021,
+        "country_of_origin": "Nigeria",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2021,
+        "country_of_origin": "South Africa",
+        "scholars": 7
+      },
+      {
+        "cohort_year": 2021,
+        "country_of_origin": "Sudan",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2021,
+        "country_of_origin": "Uganda",
+        "scholars": 3
+      },
+      {
+        "cohort_year": 2022,
+        "country_of_origin": "Cameroon",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2022,
+        "country_of_origin": "Ghana",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2022,
+        "country_of_origin": "Kenya",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2022,
+        "country_of_origin": "Liberia",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2022,
+        "country_of_origin": "Mozambique",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2022,
+        "country_of_origin": "Nigeria",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2022,
+        "country_of_origin": "Rwanda",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2022,
+        "country_of_origin": "South Africa",
+        "scholars": 3
+      },
+      {
+        "cohort_year": 2022,
+        "country_of_origin": "Uganda",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2023,
+        "country_of_origin": "Ethiopia",
+        "scholars": 5
+      },
+      {
+        "cohort_year": 2023,
+        "country_of_origin": "Ghana",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2023,
+        "country_of_origin": "Kenya",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2023,
+        "country_of_origin": "Mozambique",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2023,
+        "country_of_origin": "Nigeria",
+        "scholars": 3
+      },
+      {
+        "cohort_year": 2023,
+        "country_of_origin": "Rwanda",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2023,
+        "country_of_origin": "South Africa",
+        "scholars": 5
+      },
+      {
+        "cohort_year": 2023,
+        "country_of_origin": "Uganda",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2024,
+        "country_of_origin": "Botswana",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2024,
+        "country_of_origin": "Ethiopia",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2024,
+        "country_of_origin": "Ghana",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2024,
+        "country_of_origin": "Kenya",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2024,
+        "country_of_origin": "Nigeria",
+        "scholars": 6
+      },
+      {
+        "cohort_year": 2024,
+        "country_of_origin": "Rwanda",
+        "scholars": 3
+      },
+      {
+        "cohort_year": 2024,
+        "country_of_origin": "South Africa",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2024,
+        "country_of_origin": "Tanzania",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2024,
+        "country_of_origin": "Uganda",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2025,
+        "country_of_origin": "Cameroon",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2025,
+        "country_of_origin": "Ethiopia",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2025,
+        "country_of_origin": "Ghana",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2025,
+        "country_of_origin": "Kenya",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2025,
+        "country_of_origin": "Nigeria",
+        "scholars": 3
+      },
+      {
+        "cohort_year": 2025,
+        "country_of_origin": "Rwanda",
+        "scholars": 3
+      },
+      {
+        "cohort_year": 2025,
+        "country_of_origin": "South Africa",
+        "scholars": 4
+      },
+      {
+        "cohort_year": 2026,
+        "country_of_origin": "Benin",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2026,
+        "country_of_origin": "C\u00f4te d'Ivoire",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2026,
+        "country_of_origin": "Ethiopia",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2026,
+        "country_of_origin": "Ghana",
+        "scholars": 3
+      },
+      {
+        "cohort_year": 2026,
+        "country_of_origin": "Lesotho",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2026,
+        "country_of_origin": "Nigeria",
+        "scholars": 5
+      },
+      {
+        "cohort_year": 2026,
+        "country_of_origin": "Rwanda",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2026,
+        "country_of_origin": "Senegal",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2026,
+        "country_of_origin": "South Africa",
+        "scholars": 3
+      },
+      {
+        "cohort_year": 2026,
+        "country_of_origin": "Tanzania",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2026,
+        "country_of_origin": "Uganda",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2026,
+        "country_of_origin": "Zambia",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2027,
+        "country_of_origin": "Cameroon",
+        "scholars": 2
+      },
+      {
+        "cohort_year": 2027,
+        "country_of_origin": "Ethiopia",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2027,
+        "country_of_origin": "Ghana",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2027,
+        "country_of_origin": "Nigeria",
+        "scholars": 4
+      },
+      {
+        "cohort_year": 2027,
+        "country_of_origin": "South Africa",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2027,
+        "country_of_origin": "Uganda",
+        "scholars": 1
+      },
+      {
+        "cohort_year": 2027,
+        "country_of_origin": "Zambia",
+        "scholars": 1
+      }
+    ],
     "topCountries": [
       {
         "country_of_origin": "South Africa",
@@ -124,7 +713,7 @@
       },
       {
         "country_of_origin": "Ethiopia",
-        "scholars": 36
+        "scholars": 37
       },
       {
         "country_of_origin": "Nigeria",
@@ -151,7 +740,7 @@
         "scholars": 6
       },
       {
-        "country_of_origin": "Tanzania, United Republic of",
+        "country_of_origin": "Tanzania",
         "scholars": 6
       },
       {
@@ -166,101 +755,253 @@
     "topInstitutions": [
       {
         "institution_home": "KNUST",
-        "scholars": 24
+        "scholars": 24,
+        "firstYear": 2009
       },
       {
         "institution_home": "U Liberia",
-        "scholars": 18
+        "scholars": 18,
+        "firstYear": 2009
       },
       {
         "institution_home": "UG",
-        "scholars": 13
+        "scholars": 13,
+        "firstYear": 2008
       },
       {
         "institution_home": "Makerere",
-        "scholars": 12
+        "scholars": 12,
+        "firstYear": 2011
       },
       {
         "institution_home": "Addis Ababa U",
-        "scholars": 10
+        "scholars": 10,
+        "firstYear": 2015
       },
       {
         "institution_home": "UWC",
-        "scholars": 9
+        "scholars": 9,
+        "firstYear": 2011
       },
       {
         "institution_home": "UP",
-        "scholars": 6
+        "scholars": 6,
+        "firstYear": 2008
       },
       {
         "institution_home": "UNISA",
-        "scholars": 5
+        "scholars": 5,
+        "firstYear": 2008
       },
       {
         "institution_home": "University of Rwanda",
-        "scholars": 5
+        "scholars": 5,
+        "firstYear": 2023
       },
       {
         "institution_home": "WITS",
-        "scholars": 5
+        "scholars": 5,
+        "firstYear": 2009
       },
       {
         "institution_home": "St Paul's Hospital Millenium Medical College",
-        "scholars": 4
+        "scholars": 4,
+        "firstYear": 2017
       },
       {
         "institution_home": "UCT",
-        "scholars": 4
+        "scholars": 4,
+        "firstYear": 2009
       }
     ],
     "topHosts": [
       {
         "host_name_raw": "Anne Pitcher",
-        "participations": 3
+        "participations": 3,
+        "hostYears": [
+          {
+            "year": 2013,
+            "count": 1
+          },
+          {
+            "year": 2022,
+            "count": 1
+          },
+          {
+            "year": 2024,
+            "count": 1
+          }
+        ]
       },
       {
         "host_name_raw": "Derek Peterson",
-        "participations": 3
+        "participations": 3,
+        "hostYears": [
+          {
+            "year": 2014,
+            "count": 1
+          },
+          {
+            "year": 2015,
+            "count": 1
+          },
+          {
+            "year": 2025,
+            "count": 1
+          }
+        ]
       },
       {
         "host_name_raw": "Kelly Askew",
-        "participations": 3
+        "participations": 3,
+        "hostYears": [
+          {
+            "year": 2015,
+            "count": 1
+          },
+          {
+            "year": 2024,
+            "count": 1
+          },
+          {
+            "year": 2026,
+            "count": 1
+          }
+        ]
       },
       {
         "host_name_raw": "Ray Silverman",
-        "participations": 3
+        "participations": 3,
+        "hostYears": [
+          {
+            "year": 2008,
+            "count": 1
+          },
+          {
+            "year": 2009,
+            "count": 1
+          },
+          {
+            "year": 2013,
+            "count": 1
+          }
+        ]
       },
       {
         "host_name_raw": "Sarah Compton",
-        "participations": 3
+        "participations": 3,
+        "hostYears": [
+          {
+            "year": 2024,
+            "count": 1
+          },
+          {
+            "year": 2025,
+            "count": 1
+          },
+          {
+            "year": 2026,
+            "count": 1
+          }
+        ]
       },
       {
         "host_name_raw": "Sofia Merajver",
-        "participations": 3
+        "participations": 3,
+        "hostYears": [
+          {
+            "year": 2014,
+            "count": 1
+          },
+          {
+            "year": 2015,
+            "count": 2
+          }
+        ]
       },
       {
         "host_name_raw": "Theodore Goodson",
-        "participations": 3
+        "participations": 3,
+        "hostYears": [
+          {
+            "year": 2023,
+            "count": 1
+          },
+          {
+            "year": 2024,
+            "count": 1
+          },
+          {
+            "year": 2026,
+            "count": 1
+          }
+        ]
       },
       {
         "host_name_raw": "Adam Ashforth",
-        "participations": 2
+        "participations": 2,
+        "hostYears": [
+          {
+            "year": 2008,
+            "count": 1
+          },
+          {
+            "year": 2023,
+            "count": 1
+          }
+        ]
       },
       {
         "host_name_raw": "Adrian Deese",
-        "participations": 2
+        "participations": 2,
+        "hostYears": [
+          {
+            "year": 2024,
+            "count": 2
+          }
+        ]
       },
       {
         "host_name_raw": "Barbara A. Anderson",
-        "participations": 2
+        "participations": 2,
+        "hostYears": [
+          {
+            "year": 2014,
+            "count": 1
+          },
+          {
+            "year": 2015,
+            "count": 1
+          }
+        ]
       },
       {
         "host_name_raw": "Cheryl Moyer",
-        "participations": 2
+        "participations": 2,
+        "hostYears": [
+          {
+            "year": 2015,
+            "count": 1
+          },
+          {
+            "year": 2024,
+            "count": 1
+          }
+        ]
       },
       {
         "host_name_raw": "Daniel Halberstam",
-        "participations": 2
+        "participations": 2,
+        "hostYears": [
+          {
+            "year": 2015,
+            "count": 1
+          },
+          {
+            "year": 2021,
+            "count": 1
+          }
+        ]
       }
     ],
     "latestCohortCountries": [
@@ -273,7 +1014,7 @@
         "scholars": 2
       },
       {
-        "country_of_origin": "Ethiopian",
+        "country_of_origin": "Ethiopia",
         "scholars": 1
       },
       {
@@ -294,12 +1035,102 @@
       }
     ]
   },
+  "survey": {
+    "overview": {
+      "totalResponses": 88,
+      "completedResponses": 73,
+      "usableResponses": 63,
+      "averageProgress": 90.6
+    },
+    "responseTimeline": [
+      {
+        "month": "2025-06",
+        "responses": 61
+      },
+      {
+        "month": "2025-07",
+        "responses": 1
+      },
+      {
+        "month": "2025-09",
+        "responses": 1
+      }
+    ],
+    "impactQuestions": [
+      {
+        "key": "Q21_1",
+        "label": "Impact and Benefits of the UMAPS Program - To what extent did UMAPS positively impact your professional development?",
+        "average": 3.85,
+        "count": 61,
+        "maxScore": 4,
+        "topScoreCount": 55,
+        "topScoreShare": 90.2
+      },
+      {
+        "key": "Q21_2",
+        "label": "Impact and Benefits of the UMAPS Program - How helpful was the UMAPS residency in advancing your research goals?",
+        "average": 3.7,
+        "count": 61,
+        "maxScore": 4,
+        "topScoreCount": 45,
+        "topScoreShare": 73.8
+      },
+      {
+        "key": "Q21_3",
+        "label": "Impact and Benefits of the UMAPS Program - Since UMAPS, to what extent have you been able to apply what you learned during the residency to your teaching or mentoring?",
+        "average": 3.72,
+        "count": 60,
+        "maxScore": 4,
+        "topScoreCount": 45,
+        "topScoreShare": 75.0
+      }
+    ],
+    "opportunityQuestions": [
+      {
+        "key": "Q22_1",
+        "label": "Would you be interested in the following future opportunities? (e.g., virtual workshops, mentorship) - Virtual research workshops",
+        "average": 2.88,
+        "count": 59,
+        "maxScore": 3,
+        "topScoreCount": 52,
+        "topScoreShare": 88.1
+      },
+      {
+        "key": "Q22_2",
+        "label": "Would you be interested in the following future opportunities? (e.g., virtual workshops, mentorship) - In-person regional meetups or conferences",
+        "average": 2.93,
+        "count": 59,
+        "maxScore": 3,
+        "topScoreCount": 55,
+        "topScoreShare": 93.2
+      },
+      {
+        "key": "Q22_3",
+        "label": "Would you be interested in the following future opportunities? (e.g., virtual workshops, mentorship) - Alumni spotlights or newsletters",
+        "average": 2.78,
+        "count": 59,
+        "maxScore": 3,
+        "topScoreCount": 47,
+        "topScoreShare": 79.7
+      },
+      {
+        "key": "Q22_4",
+        "label": "Would you be interested in the following future opportunities? (e.g., virtual workshops, mentorship) - Online professional development seminars",
+        "average": 2.88,
+        "count": 57,
+        "maxScore": 3,
+        "topScoreCount": 50,
+        "topScoreShare": 87.7
+      }
+    ],
+    "note": "The export preserves question text, but not all qualitative scale labels for coded response items. This page therefore reports average score out of the highest observed score and the share of respondents who selected that highest score in the cleaned export."
+  },
   "records": [
     {
       "scholar_id": "7b94c061-cfd7-4a39-aa56-f3ab632f1a50",
       "name": "Alfred Ngenge Tamfu",
-      "email": "macntamfu@yahoo.co.uk",
       "country": "Cameroon",
+      "gender": "Male",
       "institution": "University of Ngaoundere Cameroon",
       "cohortYear": 2027,
       "semester": "Winter",
@@ -309,8 +1140,8 @@
     {
       "scholar_id": "4be1f41a-b544-4850-a5c4-8d2ecbb2bc0f",
       "name": "Chinyere Ezekannagha",
-      "email": "contactchy20@gmail.com",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "Madonna University, Department of Chemical Engineering Nigeria",
       "cohortYear": 2027,
       "semester": "Winter",
@@ -320,8 +1151,8 @@
     {
       "scholar_id": "69ee1d28-f53f-4587-9e8d-af30fe9a328a",
       "name": "Elom Ayeke",
-      "email": "elayke68@gmail.com",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "Ho Technical University Department of Architecture and Real Estate Management Ghana",
       "cohortYear": 2027,
       "semester": "Winter",
@@ -331,8 +1162,8 @@
     {
       "scholar_id": "e0db5235-9f10-47ef-bda5-67bb79565a54",
       "name": "Geletaw Behailu Belayneh",
-      "email": "geletawbphys@gmail.com",
-      "country": "Ethiopian",
+      "country": "Ethiopia",
+      "gender": "Male",
       "institution": "Bahir Dar University, Department of Physics Ethiopia",
       "cohortYear": 2027,
       "semester": "Winter",
@@ -342,8 +1173,8 @@
     {
       "scholar_id": "f7d9ce1d-ff33-41f3-b3cc-c129449cb0bb",
       "name": "Mbali Jiyane",
-      "email": "m.jiyane@ru.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "Rhodes University, Linguistics Department South Africa",
       "cohortYear": 2027,
       "semester": "Winter",
@@ -353,8 +1184,8 @@
     {
       "scholar_id": "19fe1f6c-60ee-44a2-80fc-bbfe8dd7d672",
       "name": "Naheem Tijani",
-      "email": "tijani.naheem@kiu.ac.ug",
       "country": "Nigeria",
+      "gender": "Male",
       "institution": "Kampala International University, Department of Microbiology and Immunology Uganda",
       "cohortYear": 2027,
       "semester": "Winter",
@@ -364,8 +1195,8 @@
     {
       "scholar_id": "6c579631-afe6-4ea8-bfdc-28eaf7c0f140",
       "name": "Nkemngong Atemnkeng",
-      "email": "ankemngong@yahoo.com",
       "country": "Cameroon",
+      "gender": "Female",
       "institution": "University of Buea, Department of Educational Psychology Cameroon",
       "cohortYear": 2027,
       "semester": "Winter",
@@ -375,8 +1206,8 @@
     {
       "scholar_id": "f9c8a5ca-2ed3-4cc7-a93e-d73b3c61719b",
       "name": "Oluwaseun Bamigboye",
-      "email": "oluwaseun.bamigboye@fuoye.edu.ng",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "Federal University Oye Ekiti Nigeria Nigeria",
       "cohortYear": 2027,
       "semester": "Winter",
@@ -386,8 +1217,8 @@
     {
       "scholar_id": "d4fbf778-37b2-48cb-bfc0-0049fc7cbdbf",
       "name": "Samantha Munang'andu",
-      "email": "smufungwe24@gmail.com",
       "country": "Zambia",
+      "gender": "Female",
       "institution": "University of Zambia, School of Nursing Sciences Zambia",
       "cohortYear": 2027,
       "semester": "Winter",
@@ -397,8 +1228,8 @@
     {
       "scholar_id": "b86d0472-2bee-47ad-ac76-eeeba8e7600b",
       "name": "William Musamba",
-      "email": "wmusamba@gmail.com",
       "country": "Uganda",
+      "gender": "Male",
       "institution": "Makerere University Uganda",
       "cohortYear": 2027,
       "semester": "Winter",
@@ -408,8 +1239,8 @@
     {
       "scholar_id": "ff66e307-228f-40df-83cd-74998621405f",
       "name": "Wuraola Aina",
-      "email": "omolewaaina76@gmail.com",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "University of Ibadan, Department of Archaeology and Anthropology Nigeria",
       "cohortYear": 2027,
       "semester": "Winter",
@@ -419,8 +1250,8 @@
     {
       "scholar_id": "ed49a01d-1a2e-4e43-9d9c-24dac0a7a005",
       "name": "Aboubakar Alidou",
-      "email": "aboubakaralidou@gmail.com",
       "country": "Benin",
+      "gender": "Male",
       "institution": "University of Abomey-Calavi, Benin",
       "cohortYear": 2026,
       "semester": "Fall",
@@ -430,8 +1261,8 @@
     {
       "scholar_id": "eeab3127-73f0-490c-ade6-297e8d212853",
       "name": "Bahati Kayaga",
-      "email": "bahati2203@gmail.com",
-      "country": "Tanzania, United Republic of",
+      "country": "Tanzania",
+      "gender": "Female",
       "institution": "St JOhn's Univ. of Tanzania",
       "cohortYear": 2026,
       "semester": "Winter",
@@ -441,8 +1272,8 @@
     {
       "scholar_id": "d8c37494-8cf5-4335-8d00-b4eeadf3d9db",
       "name": "Bernadette Agbavor",
-      "email": "agbavor@kccr.de",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "KNUST, Kumasi, Ghana",
       "cohortYear": 2026,
       "semester": "Fall",
@@ -452,8 +1283,8 @@
     {
       "scholar_id": "109647a1-a2f9-460f-baac-a603058ea861",
       "name": "Brigitte Irankunda",
-      "email": "brigitteirankunda@gmail.com",
       "country": "Rwanda",
+      "gender": "Female",
       "institution": null,
       "cohortYear": 2026,
       "semester": "Winter",
@@ -463,8 +1294,8 @@
     {
       "scholar_id": "5ab5b369-24e5-49ed-8e60-ccbfdcfd612d",
       "name": "Calumet Links",
-      "email": "calumetlinks@sun.ac.za",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "Stellenbosch University, South Africa",
       "cohortYear": 2026,
       "semester": "Fall",
@@ -474,8 +1305,8 @@
     {
       "scholar_id": "24e8f708-281e-48e4-b7ba-fa2f5decce9e",
       "name": "Damilola Odekunle",
-      "email": "dodekunle@unilag.edu.ng",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "University of Lagos, Department of Urban and Regional Planning, Nigeria",
       "cohortYear": 2026,
       "semester": "Fall",
@@ -485,8 +1316,8 @@
     {
       "scholar_id": "7f6ff01d-79f4-485a-9016-7088d7f2b02c",
       "name": "Doudou Fall",
-      "email": "doudou.fall@esp.sn",
       "country": "Senegal",
+      "gender": "Male",
       "institution": "Cheikh Anta Diop University of Dakar (UCAD), Department of Computer Science, Cameroon",
       "cohortYear": 2026,
       "semester": "Fall",
@@ -496,8 +1327,8 @@
     {
       "scholar_id": "e51c79fb-4c91-4992-9faa-f7cd6c35a8cc",
       "name": "Edwina Ashie-Nikoi",
-      "email": "edashie-nikoi@ug.edu.gh",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "University of Ghana, Ghana",
       "cohortYear": 2026,
       "semester": "Fall",
@@ -507,8 +1338,8 @@
     {
       "scholar_id": "a6e4302d-acd1-4cf3-be64-48945fb19bc1",
       "name": "Elastus Mambwe",
-      "email": "elastus@gmail.com",
       "country": "Zambia",
+      "gender": "Male",
       "institution": "University of Zambia, Zambia",
       "cohortYear": 2026,
       "semester": "Fall",
@@ -518,8 +1349,8 @@
     {
       "scholar_id": "79361f43-90f2-4246-9321-400a3f73d1fd",
       "name": "Gebeyehu Negassa",
-      "email": "jalugebeyehu13@gmail.com",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "Mekelle University",
       "cohortYear": 2026,
       "semester": "Winter",
@@ -529,8 +1360,8 @@
     {
       "scholar_id": "9f4fa451-4c33-4a85-8d27-b0a7113406e9",
       "name": "Iheanacho Metuonu",
-      "email": "imetuonu@unimed.edu.ng",
       "country": "Nigeria",
+      "gender": "Male",
       "institution": "University of Medical Sciences, Ondo City, Nigeria.",
       "cohortYear": 2026,
       "semester": "Winter",
@@ -540,8 +1371,8 @@
     {
       "scholar_id": "e3f524f9-90d7-4b62-89cd-cfdf03fd3e01",
       "name": "Janet Munakamwe",
-      "email": "munaxjan@proton.me",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "University of the Witwatersrand",
       "cohortYear": 2026,
       "semester": "Winter",
@@ -551,8 +1382,8 @@
     {
       "scholar_id": "a4f64b1a-3314-40b1-829a-d06aa9a9fb70",
       "name": "Jean Baptiste Mushimiyimana",
-      "email": "baptimu@gmail.com",
       "country": "Rwanda",
+      "gender": "Male",
       "institution": "University of Rwanda, Rwanda",
       "cohortYear": 2026,
       "semester": "Fall",
@@ -562,8 +1393,8 @@
     {
       "scholar_id": "a1c6923a-8361-4b95-a694-2360f68e981e",
       "name": "Kassim Tawiah",
-      "email": "kassim.tawiah@uenr.edu.gh",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "University of Energy and Natural Resources, Sunyani, Ghana",
       "cohortYear": 2026,
       "semester": "Winter",
@@ -573,8 +1404,8 @@
     {
       "scholar_id": "af7afd8c-c366-41fe-9cb5-1e404f1f2ce3",
       "name": "Kefilwe Mokwebo",
-      "email": "vmokwebo@uwc.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "University of the Western Cape",
       "cohortYear": 2026,
       "semester": "Winter",
@@ -584,8 +1415,8 @@
     {
       "scholar_id": "6501c7bd-ed12-4989-a1b8-bd59c8964779",
       "name": "Lebea Nthunya",
-      "email": "nthunln@unisa.ac.za",
       "country": "Lesotho",
+      "gender": "Male",
       "institution": "University of the Witwatersrand, South Africa",
       "cohortYear": 2026,
       "semester": "Fall",
@@ -595,8 +1426,8 @@
     {
       "scholar_id": "5ebc6a60-0f4f-4b6a-900c-f87b1a8ead82",
       "name": "Masauso Chirwa",
-      "email": "masauso.chirwa@unza.zm",
       "country": "Zambia",
+      "gender": "Male",
       "institution": "University of Zambia",
       "cohortYear": 2026,
       "semester": "Winter",
@@ -606,8 +1437,8 @@
     {
       "scholar_id": "b8f9e12e-84b4-464e-93f8-fe9e1a33525c",
       "name": "Rita Nassanga",
-      "email": "ritanassanga@gmail.com",
       "country": "Uganda",
+      "gender": "Female",
       "institution": "Makerere University College of Health Sciences, Uganda",
       "cohortYear": 2026,
       "semester": "Fall",
@@ -617,8 +1448,8 @@
     {
       "scholar_id": "5b0f7492-8eaa-4b50-844f-404547df0802",
       "name": "Talabi Ayegbusi",
-      "email": "talabi.ayegbusi@fuoye.edu.ng",
       "country": "Nigeria",
+      "gender": "Male",
       "institution": "Federal University Oye-Ekiti, Nigeria",
       "cohortYear": 2026,
       "semester": "Fall",
@@ -628,8 +1459,8 @@
     {
       "scholar_id": "89185670-8205-40e8-930a-4c2fd21559bf",
       "name": "Tata Coulibaly",
-      "email": "csafiatou@gmail.com",
-      "country": "Cote d\u2019Ivoire",
+      "country": "C\u00f4te d'Ivoire",
+      "gender": "Female",
       "institution": "Pasteur Institute of Cote d'Ivoire",
       "cohortYear": 2026,
       "semester": "Winter",
@@ -639,8 +1470,8 @@
     {
       "scholar_id": "bd94c77f-ee99-4578-83a3-b44a93124a57",
       "name": "Yetunde Ajayeoba",
-      "email": "yetunde.ajayeoba@uniosun.edu.ng",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "Osun State University",
       "cohortYear": 2026,
       "semester": "Winter",
@@ -650,8 +1481,8 @@
     {
       "scholar_id": "b7b28509-92d5-4c84-b736-0a79a904c888",
       "name": "Zainab Bello",
-      "email": "bellozainab55@yahoo.com",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "AHMADU BELLO UNIVERSITY ZARIA, NIGERIA",
       "cohortYear": 2026,
       "semester": "Winter",
@@ -661,8 +1492,8 @@
     {
       "scholar_id": "35b99d51-770b-465f-8925-133e61be6dd4",
       "name": "Alecia Ndlovu",
-      "email": "alecia.ndlovu@gmail.com",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "Univ of Cape Town",
       "cohortYear": 2025,
       "semester": "Fall",
@@ -672,8 +1503,8 @@
     {
       "scholar_id": "c9a9bad5-dfd2-46ac-9037-99cdb4a6c2f5",
       "name": "Bukola Ochei",
-      "email": "desiri29@gmail.com",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "University of Ibadan",
       "cohortYear": 2025,
       "semester": "Winter",
@@ -683,8 +1514,8 @@
     {
       "scholar_id": "cf382492-ba8a-4d6b-9344-5cabe4f7a928",
       "name": "Christian Kwisanga",
-      "email": "kwistiand@gmail.com",
       "country": "Rwanda",
+      "gender": "Male",
       "institution": "University of Rwanda",
       "cohortYear": 2025,
       "semester": "Fall",
@@ -694,8 +1525,8 @@
     {
       "scholar_id": "81fab25c-a6b0-4203-a335-0bac96b96eee",
       "name": "Clint Abrahams",
-      "email": "clint.abrahams@uct.ac.za",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "University of Cape Town",
       "cohortYear": 2025,
       "semester": "Winter",
@@ -705,8 +1536,8 @@
     {
       "scholar_id": "ffc5af1a-910b-4631-9e6f-71113f58afcb",
       "name": "Desta Gebeyehu",
-      "email": "desty21@gmail.com",
       "country": "Ethiopia",
+      "gender": "Female",
       "institution": "Injibara University",
       "cohortYear": 2025,
       "semester": "Winter",
@@ -716,8 +1547,8 @@
     {
       "scholar_id": "0ca97c8f-af19-4dba-bd61-ec806d264aee",
       "name": "Dorcas Mwigereri",
-      "email": "dorcas.mwigereri@aku.edu",
       "country": "Kenya",
+      "gender": "Female",
       "institution": "Aga Khan University",
       "cohortYear": 2025,
       "semester": "Winter",
@@ -727,8 +1558,8 @@
     {
       "scholar_id": "95226c78-b66c-45aa-82d3-3fdc46838b80",
       "name": "Folakemi Ogungbe",
-      "email": "fogungbe@pau.edu.ng",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "Pan-Atlantic University",
       "cohortYear": 2025,
       "semester": "Fall",
@@ -738,8 +1569,8 @@
     {
       "scholar_id": "b8742650-700d-40eb-ace7-2fdfba9874a8",
       "name": "Gafita Charles",
-      "email": "gafitcha@gmail.com",
       "country": "Rwanda",
+      "gender": "Male",
       "institution": "University of Rwanda",
       "cohortYear": 2025,
       "semester": "Fall",
@@ -749,8 +1580,8 @@
     {
       "scholar_id": "e8f62e55-b778-4f21-afaf-98874430a1ca",
       "name": "Jean Paul NSABIMANA",
-      "email": "nsapa123@gmail.com",
       "country": "Rwanda",
+      "gender": "Male",
       "institution": "University of Rwanda",
       "cohortYear": 2025,
       "semester": "Winter",
@@ -760,8 +1591,8 @@
     {
       "scholar_id": "0f25ad80-7a23-4325-b6f7-8c4c449ffd31",
       "name": "Mary Ajala",
-      "email": "ajala.ma@unilorin.edu.ng",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "UNIVERSITY OF ILORIN, KWARA STATE, NIGERIA",
       "cohortYear": 2025,
       "semester": "Winter",
@@ -771,8 +1602,8 @@
     {
       "scholar_id": "46719120-9322-4df7-8058-f33d5f919790",
       "name": "Michael Dziwornu",
-      "email": "dzimike.md@gmail.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "Architecture & Urban Planning",
       "cohortYear": 2025,
       "semester": "Winter",
@@ -782,8 +1613,8 @@
     {
       "scholar_id": "475b87b5-b22f-4023-ad25-5fd6bfdbebba",
       "name": "Molebogeng Bodiba",
-      "email": "molebo.k@gmail.com",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "Sefako Makgatho Health Sciences University",
       "cohortYear": 2025,
       "semester": "Fall",
@@ -793,8 +1624,8 @@
     {
       "scholar_id": "564d3168-cdf0-4a91-bbd7-9e44f04d6912",
       "name": "NORAH ASONGU",
-      "email": "norahasongu@yahoo.com",
       "country": "Cameroon",
+      "gender": "Female",
       "institution": "UNIVERSITY OF YAOUNDE 1.",
       "cohortYear": 2025,
       "semester": "Winter",
@@ -804,8 +1635,8 @@
     {
       "scholar_id": "5e4b9a80-e716-4257-b32c-2912a7aec4fc",
       "name": "Victor Gwande",
-      "email": "gwandevm@ufs.ac.za",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "University of the Free State",
       "cohortYear": 2025,
       "semester": "Winter",
@@ -815,8 +1646,8 @@
     {
       "scholar_id": "b8c2a8d2-12c4-4ccd-9a3d-30d8a3fa482b",
       "name": "Yilkal Hunegnaw",
-      "email": "joemakalister123@gmail.com",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "Hawassa University",
       "cohortYear": 2025,
       "semester": "Winter",
@@ -826,8 +1657,8 @@
     {
       "scholar_id": "a1ea4531-79a6-4b19-b80a-ba2ac5db62d7",
       "name": "Allan Omondi",
-      "email": "aomondi@strathmore.edu",
       "country": "Kenya",
+      "gender": "Male",
       "institution": "Stratmore University",
       "cohortYear": 2024,
       "semester": "Winter",
@@ -837,8 +1668,8 @@
     {
       "scholar_id": "020a6495-3c8f-4dd2-a2f1-39bb73cc7c3d",
       "name": "Anatoli Lwassampijja",
-      "email": "alwassampijja@gmail.com",
       "country": "Uganda",
+      "gender": "Male",
       "institution": "Makerere University",
       "cohortYear": 2024,
       "semester": "Fall",
@@ -848,8 +1679,8 @@
     {
       "scholar_id": "d43903eb-e168-4df3-82a1-4ca31b8e1c17",
       "name": "Atilola Abidemi-Iromini",
-      "email": "aoabidemi-iromini@futa.edu.ng",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "The Federal University of Technology, Akure, Nigeria",
       "cohortYear": 2024,
       "semester": "Fall",
@@ -859,8 +1690,8 @@
     {
       "scholar_id": "b1ce833b-6854-4524-a2ce-831b2f96d42e",
       "name": "Ayalnesh Yalew",
-      "email": "ayuzem4@gmail.com",
       "country": "Ethiopia",
+      "gender": "Female",
       "institution": "St Pauls Millenium Hospital",
       "cohortYear": 2024,
       "semester": "Winter",
@@ -870,8 +1701,8 @@
     {
       "scholar_id": "9e8b4546-adf6-45ad-b4c5-dce86ee55aa8",
       "name": "Ayisha Baffoe-Ashun",
-      "email": "idakaada@gmail.com",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "Kwame Nkrumah University of Science and Technology, Kumasi, Ghana",
       "cohortYear": 2024,
       "semester": "Fall",
@@ -881,8 +1712,8 @@
     {
       "scholar_id": "8028b99e-325c-4f94-8a61-5ece64f1aa21",
       "name": "Benyin Akande",
-      "email": "baakande@unical.edu.ng",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "University of Calabar, Nigeria",
       "cohortYear": 2024,
       "semester": "Winter",
@@ -892,8 +1723,8 @@
     {
       "scholar_id": "c367b39f-fcde-44a1-8be6-d155b53fd928",
       "name": "Chinasa Abonyi",
-      "email": "chinasa.abonyi@unn.edu.ng",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "University of Nigeria, Nsukka, Nigeria",
       "cohortYear": 2024,
       "semester": "Winter",
@@ -903,8 +1734,8 @@
     {
       "scholar_id": "1004c128-c84e-4676-b63c-469e615c2175",
       "name": "Elizabeth Managa Muthumuni",
-      "email": "managme@unisa.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "University of South Africa",
       "cohortYear": 2024,
       "semester": "Winter",
@@ -914,8 +1745,8 @@
     {
       "scholar_id": "0ba1e755-b7cf-484d-9eb6-a7c1eadf6eb6",
       "name": "Emmanuel Iyamuremye",
-      "email": "eiyamuremye@aims.ac.tz",
       "country": "Rwanda",
+      "gender": "Male",
       "institution": "University of Rwanda College of Education",
       "cohortYear": 2024,
       "semester": "Fall",
@@ -925,8 +1756,8 @@
     {
       "scholar_id": "022bd4f5-df87-497b-86bb-6de7c1853d31",
       "name": "Faith Benson",
-      "email": "faith.neema@aku.edu",
       "country": "Kenya",
+      "gender": "Female",
       "institution": "Aga Khan University",
       "cohortYear": 2024,
       "semester": "Fall",
@@ -936,8 +1767,8 @@
     {
       "scholar_id": "9f830925-53ef-4dbb-b656-540a63c944fc",
       "name": "Hanna Teklu Gebregziabher",
-      "email": "hanotek@yahoo.com",
       "country": "Ethiopia",
+      "gender": "Female",
       "institution": "Hawassa University",
       "cohortYear": 2024,
       "semester": "Winter",
@@ -947,8 +1778,8 @@
     {
       "scholar_id": "dde1be47-6d58-4c86-915c-a6bcd0d2d97d",
       "name": "Jean de Dieu Niyigena",
-      "email": "jniyigena@aims.ac.tz",
       "country": "Rwanda",
+      "gender": "Male",
       "institution": "University of Rwanda",
       "cohortYear": 2024,
       "semester": "Winter",
@@ -958,8 +1789,8 @@
     {
       "scholar_id": "7b894609-9069-4c49-a6ef-011f03de5450",
       "name": "Latifat Sidiq",
-      "email": "anuoluwanimorigba@gmail.com",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "Kwara State University",
       "cohortYear": 2024,
       "semester": "Winter",
@@ -969,8 +1800,8 @@
     {
       "scholar_id": "68c5d6c1-2002-4e9f-8d80-3a11c739d27a",
       "name": "Makai Daniel",
-      "email": "makai@fuwukari.edu.ng",
       "country": "Nigeria",
+      "gender": "Male",
       "institution": "Federal University Wukari,Taraba State, Nigeria.",
       "cohortYear": 2024,
       "semester": "Winter",
@@ -980,8 +1811,8 @@
     {
       "scholar_id": "01abe1bb-5b76-4380-bcd4-fe49ed12c84b",
       "name": "Mooketsi Molefi",
-      "email": "molefim@ub.ac.bw alt email mooketsimolefi@gmail.com",
       "country": "Botswana",
+      "gender": "Male",
       "institution": "University of Botswana",
       "cohortYear": 2024,
       "semester": "Fall",
@@ -991,8 +1822,8 @@
     {
       "scholar_id": "b224ae68-6794-4057-ae8f-ac54e31eb345",
       "name": "Nixon Wamamela",
-      "email": "wamamela@yahoo.co.uk",
       "country": "Uganda",
+      "gender": "Male",
       "institution": "Makerere University",
       "cohortYear": 2024,
       "semester": "Winter",
@@ -1002,8 +1833,8 @@
     {
       "scholar_id": "1918697e-b679-4f05-b479-d49ee17036e7",
       "name": "Oluwanifemi Bamidele-Nelly",
-      "email": "ndbamidele-nelly@futa.edu.ng",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "FEDERAL UNIVERSITY OF TECHNOLOGY AKURE, ONDO STATE, NIGERIA.",
       "cohortYear": 2024,
       "semester": "Fall",
@@ -1013,8 +1844,8 @@
     {
       "scholar_id": "83a25658-f38a-49df-bfc6-c18a96d8146a",
       "name": "Oswald Martin",
-      "email": "mafikirio@gmail.com",
-      "country": "Tanzania, United Republic of",
+      "country": "Tanzania",
+      "gender": "Male",
       "institution": "The Mwalimu Nyerere Memorial Academy",
       "cohortYear": 2024,
       "semester": "Fall",
@@ -1024,8 +1855,8 @@
     {
       "scholar_id": "88ca22ac-a1c3-43f7-9384-0629aae62786",
       "name": "Richard NSENGIYUMVA",
-      "email": "richnse2@gmail.com",
       "country": "Rwanda",
+      "gender": "Male",
       "institution": "UNIVERSITY OF RWANDA",
       "cohortYear": 2024,
       "semester": "Fall",
@@ -1035,8 +1866,8 @@
     {
       "scholar_id": "851875b8-bc4d-49e2-b66d-72b09064692d",
       "name": "Sisty Basil",
-      "email": "stiba7@gmail.com",
-      "country": "Tanzania, United Republic of",
+      "country": "Tanzania",
+      "gender": "Male",
       "institution": "Pan African Uni",
       "cohortYear": 2024,
       "semester": "Winter",
@@ -1046,8 +1877,8 @@
     {
       "scholar_id": "e6fc2db3-059f-44a4-8d16-4ad398b5b376",
       "name": "Stella Antwiwaa",
-      "email": "stella.antwiwaa@ucc.edu.gh",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "University of Cape Coast, Ghana",
       "cohortYear": 2024,
       "semester": "Fall",
@@ -1057,8 +1888,8 @@
     {
       "scholar_id": "1cf1d1f2-e00d-4733-aa7f-6178d29bcede",
       "name": "Tintswalo Nesengani",
-      "email": "vicky.nesenganie@gmail.com",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "University of Pretoria",
       "cohortYear": 2024,
       "semester": "Winter",
@@ -1068,8 +1899,8 @@
     {
       "scholar_id": "b2baada4-d60d-4c7a-b921-0f88a9225c73",
       "name": "Abebech Eshetu",
-      "email": "abebie1212@gmail.com abebeche@umich.edu",
       "country": "Ethiopia",
+      "gender": "Female",
       "institution": "University of Gondar",
       "cohortYear": 2023,
       "semester": "Fall",
@@ -1079,8 +1910,8 @@
     {
       "scholar_id": "596cab12-5c46-4d0a-aabb-fb430b0bec1f",
       "name": "Amaka Emordi",
-      "email": "a.emordi@oauife.edu.ng aemordi@umich.edu",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "Obafemi Awolowo University",
       "cohortYear": 2023,
       "semester": "Fall",
@@ -1090,8 +1921,8 @@
     {
       "scholar_id": "d27522a5-ea8d-4067-9618-d7021147964b",
       "name": "Babalwa Magoqwana",
-      "email": "babalwa.magoqwana@mandela.ac.za bmagoq@umich.edu",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "Nelson Mandela University",
       "cohortYear": 2023,
       "semester": "Fall",
@@ -1101,8 +1932,8 @@
     {
       "scholar_id": "913eef73-a328-4c4a-bee9-0266bcae4cf8",
       "name": "Bosena Yirga",
-      "email": "bosenayirg@gmail.com",
       "country": "Ethiopia",
+      "gender": "Female",
       "institution": "MA, Addis Ababa Univesity",
       "cohortYear": 2023,
       "semester": "Winter",
@@ -1112,8 +1943,8 @@
     {
       "scholar_id": "50913830-88de-4aa6-a4dd-917fe103cd8a",
       "name": "Daniel Ramotsoela",
-      "email": "daniel.ramotsoela@uct.ac.za",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "PhD U Pretoria",
       "cohortYear": 2023,
       "semester": "Winter",
@@ -1123,8 +1954,8 @@
     {
       "scholar_id": "b9e8eecf-dffd-4adf-bac8-853a6c70c80f",
       "name": "Eyerusaleam Ayele",
-      "email": "eyerusalemkassahun6@gamil.com",
       "country": "Ethiopia",
+      "gender": "Female",
       "institution": "MA, Addis Ababa Univesity",
       "cohortYear": 2023,
       "semester": "Winter",
@@ -1134,8 +1965,8 @@
     {
       "scholar_id": "a7a5d7ab-6372-496d-9b94-8043aa5eafd0",
       "name": "Fatumah Mirembe",
-      "email": "fmirembe21@gmail.com fmirembe@umich.edu",
       "country": "Uganda",
+      "gender": "Female",
       "institution": "Makerere University",
       "cohortYear": 2023,
       "semester": "Fall",
@@ -1145,8 +1976,8 @@
     {
       "scholar_id": "0a597eb7-d24f-4dad-b4c9-c97ead4f9ee6",
       "name": "Grace Maina",
-      "email": "njokimaina11@gmail.com",
       "country": "Kenya",
+      "gender": "Female",
       "institution": "MA Kenyatta U",
       "cohortYear": 2023,
       "semester": "Winter",
@@ -1156,8 +1987,8 @@
     {
       "scholar_id": "6daa9442-f2e7-42ed-8798-ec4a75f40fc4",
       "name": "Hagenimana Theoneste",
-      "email": "hagenatheos2006@gmail.com theonesh@umich.edu",
       "country": "Rwanda",
+      "gender": "Male",
       "institution": "University of Rwanda",
       "cohortYear": 2023,
       "semester": "Fall",
@@ -1167,8 +1998,8 @@
     {
       "scholar_id": "c98e4adb-86f7-482f-8576-616cd8c57135",
       "name": "Heitor Mutchamua",
-      "email": "hbmutchamua@gmail.com heitorhm@umich.edu",
       "country": "Mozambique",
+      "gender": "Male",
       "institution": "Instituto Superior Polit\u00e9cnico Engineering",
       "cohortYear": 2023,
       "semester": "Fall",
@@ -1178,8 +2009,8 @@
     {
       "scholar_id": "6000c641-6114-41c8-a9e5-8179776f9225",
       "name": "James Orwa",
-      "email": "james.orwa@aku.edu",
       "country": "Kenya",
+      "gender": "Male",
       "institution": "MA, Hasselt U, Belgium",
       "cohortYear": 2023,
       "semester": "Winter",
@@ -1189,8 +2020,8 @@
     {
       "scholar_id": "3cef8a3c-b383-4dda-ba2d-2992303252c9",
       "name": "Jean Pierre Ngendahayo",
-      "email": "pingenda9@gmail.com",
       "country": "Rwanda",
+      "gender": "Male",
       "institution": "Masters U Rwanda",
       "cohortYear": 2023,
       "semester": "Winter",
@@ -1200,8 +2031,8 @@
     {
       "scholar_id": "ea335a29-c249-4806-8235-703f4cc4ea06",
       "name": "Joseph Kachim",
-      "email": "joseph.kachim@ucc.edu.gh jkachim@umich.edu",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "University of Cape Coast",
       "cohortYear": 2023,
       "semester": "Fall",
@@ -1211,8 +2042,8 @@
     {
       "scholar_id": "b20e64b6-884b-4f99-8e23-03fbd53d7c04",
       "name": "Jude Okoye",
-      "email": "judeogeokoye@gmail.com",
       "country": "Nigeria",
+      "gender": "Male",
       "institution": "MA Nnamdi Azikiwe U",
       "cohortYear": 2023,
       "semester": "Winter",
@@ -1222,8 +2053,8 @@
     {
       "scholar_id": "06773641-69fe-4399-9e98-8e85d0aa888a",
       "name": "Marissa Pahaladh",
-      "email": "marissa.balmith@up.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "PhD UKZN",
       "cohortYear": 2023,
       "semester": "Winter",
@@ -1233,8 +2064,8 @@
     {
       "scholar_id": "27dce3cf-d519-4178-a00f-34bcab593b3d",
       "name": "Meseret Azene",
-      "email": "mazene8@gmail.com",
       "country": "Ethiopia",
+      "gender": "Female",
       "institution": "MA, Addis Ababa Univesity",
       "cohortYear": 2023,
       "semester": "Winter",
@@ -1244,8 +2075,8 @@
     {
       "scholar_id": "d727ac4b-8128-487e-a3dc-780ab8ca24c5",
       "name": "Mundia Kabinga",
-      "email": "mundia.kabinga@uct.ac.za mkabinga@umich.edu",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "University of Cape Town",
       "cohortYear": 2023,
       "semester": "Fall",
@@ -1255,8 +2086,8 @@
     {
       "scholar_id": "b06e2367-9f29-4d91-8755-7b356be7271e",
       "name": "Sola Edagbami",
-      "email": "solaeboda@gmail.com solaee@umich.edu",
       "country": "Nigeria",
+      "gender": "Male",
       "institution": "University of Lagos",
       "cohortYear": 2023,
       "semester": "Fall",
@@ -1266,8 +2097,8 @@
     {
       "scholar_id": "48355fd1-f415-4618-9901-d7d629319a6d",
       "name": "Tesfaye Wondyifraw Tsegaye",
-      "email": "twondifraw2@gmail.com",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "Mr",
       "cohortYear": 2023,
       "semester": "Winter",
@@ -1277,8 +2108,8 @@
     {
       "scholar_id": "df8366ec-223c-4d5b-a38a-cda22b38b13d",
       "name": "Tshepiso Scott",
-      "email": "tshepiso.scott@up.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "PhD UNISA",
       "cohortYear": 2023,
       "semester": "Winter",
@@ -1288,8 +2119,8 @@
     {
       "scholar_id": "b81d42e0-26a5-4260-895a-52ed0137be48",
       "name": "Anna Moagi",
-      "email": null,
       "country": "South Africa",
+      "gender": "Female",
       "institution": "UNISA",
       "cohortYear": 2022,
       "semester": "Fall",
@@ -1299,8 +2130,8 @@
     {
       "scholar_id": "ae6ef097-0604-4d2f-bb57-2bdced010261",
       "name": "Anne Jepkemboi",
-      "email": null,
       "country": "Uganda",
+      "gender": "Female",
       "institution": "Kyamboho U",
       "cohortYear": 2022,
       "semester": "Fall",
@@ -1310,8 +2141,8 @@
     {
       "scholar_id": "143fc424-3734-4dd5-99a4-e55f15f288a0",
       "name": "Aristedes Hargoe",
-      "email": null,
       "country": "Ghana",
+      "gender": "Male",
       "institution": "U Ghana",
       "cohortYear": 2022,
       "semester": "Fall",
@@ -1321,8 +2152,8 @@
     {
       "scholar_id": "647c3ed6-bb42-46c8-81a2-8a0f6ed6cdb7",
       "name": "Celso Monjane",
-      "email": null,
       "country": "Mozambique",
+      "gender": "Male",
       "institution": "U Joaquim Chissano",
       "cohortYear": 2022,
       "semester": "Fall",
@@ -1332,8 +2163,8 @@
     {
       "scholar_id": "903d595c-1e11-4b5b-980e-95b2a4a01eee",
       "name": "Joseph Seika",
-      "email": null,
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U Liberia",
       "cohortYear": 2022,
       "semester": "Fall",
@@ -1343,8 +2174,8 @@
     {
       "scholar_id": "5c8c32bc-30b2-4a98-bd62-9d3f06317a35",
       "name": "Justine Nzweundji",
-      "email": null,
       "country": "Cameroon",
+      "gender": "Female",
       "institution": "Universite des Montagnes",
       "cohortYear": 2022,
       "semester": "Fall",
@@ -1354,8 +2185,8 @@
     {
       "scholar_id": "201fdbe8-75a2-481c-aa01-fda78202098f",
       "name": "Nancy Awori",
-      "email": null,
       "country": "Kenya",
+      "gender": "Female",
       "institution": "Multimedia U of Kenya",
       "cohortYear": 2022,
       "semester": "Fall",
@@ -1365,8 +2196,8 @@
     {
       "scholar_id": "95a838ee-8190-48bf-83a1-4a10e937d951",
       "name": "Pierre Celestin Uwitonze",
-      "email": null,
       "country": "Rwanda",
+      "gender": "Male",
       "institution": "U Rwanda",
       "cohortYear": 2022,
       "semester": "Fall",
@@ -1376,8 +2207,8 @@
     {
       "scholar_id": "ff6a1d2d-214f-4825-a473-9bc834e7b1ac",
       "name": "Rodwell Makombe",
-      "email": null,
       "country": "South Africa",
+      "gender": "Male",
       "institution": "U Free State",
       "cohortYear": 2022,
       "semester": "Fall",
@@ -1387,8 +2218,8 @@
     {
       "scholar_id": "0396a787-33de-43ca-bdf3-21225b5d9de4",
       "name": "Samuel Boahen",
-      "email": null,
       "country": "Ghana",
+      "gender": "Male",
       "institution": "Kwame Nkrumah University of Science & Technology Ghana",
       "cohortYear": 2022,
       "semester": "Fall",
@@ -1398,8 +2229,8 @@
     {
       "scholar_id": "ccce512c-e124-491f-9d6e-dbe9b3120459",
       "name": "Thembelihle Luthuli",
-      "email": null,
       "country": "South Africa",
+      "gender": "Female",
       "institution": "UKZN",
       "cohortYear": 2022,
       "semester": "Fall",
@@ -1409,8 +2240,8 @@
     {
       "scholar_id": "5d194680-50a4-43d0-a311-5d48494bf7d8",
       "name": "Ugochi Okengqu",
-      "email": null,
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "U Port Harcourt",
       "cohortYear": 2022,
       "semester": "Fall",
@@ -1420,2068 +2251,2068 @@
     {
       "scholar_id": "92927e0e-b553-43c0-9bbc-cd9a5a5d2335",
       "name": "Anslyn John",
-      "email": "anslyn@sun.ac.za",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "Rhodes University",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Theoretical Physics",
       "host": "August Evrard (LSA: Physics)"
     },
     {
       "scholar_id": "ef721b2f-92a3-4ca8-991b-d8fdc4394406",
       "name": "Bantayehu Shiferaw Chanie",
-      "email": "bshiferaw6@hotmail.com",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "Bahir Dar U",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Political Science and International Studies",
       "host": "Susan Page"
     },
     {
       "scholar_id": "1f1189a9-ed70-4780-b71b-0ee7ad9f011f",
       "name": "Diana Mbatudde",
-      "email": "diana.mbatudde@ymail.com; diana.mbatudde@aku.edu",
       "country": "Uganda",
+      "gender": "Female",
       "institution": "Aga Khan-Uganda",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Nursing",
       "host": "Massy Mutumba"
     },
     {
       "scholar_id": "43299204-9011-4c92-bf97-3075f778661e",
       "name": "Fawzi Bakhiet",
-      "email": "fawzineelain@hotmail.com",
       "country": "Sudan",
+      "gender": "Male",
       "institution": "Neelain University",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Archaeology",
       "host": "Geoff Emberling (Kelsey Museum of Archaeology)"
     },
     {
       "scholar_id": "c1edd95c-7291-4067-b79c-1698a71cd1ae",
       "name": "Fedila Hussen",
-      "email": "fedilas01@gmail.com",
       "country": "Ethiopia",
+      "gender": "Female",
       "institution": "University of Gondar",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Law",
       "host": "Adam Ashforth (LSA: DAAS)"
     },
     {
       "scholar_id": "973aff71-01fc-47e5-a49b-0565e33db433",
       "name": "Firminus Mugumya",
-      "email": "firmlib@yahoo.co.uk",
       "country": "Uganda",
+      "gender": "Male",
       "institution": "Makerere U",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Social Work",
       "host": "Philip Bowman (School of Education)"
     },
     {
       "scholar_id": "2e483c15-f978-42c9-a70d-3a3715237be3",
       "name": "Gifty Buah",
-      "email": "giftybuah@gmail.com; gbuah@ug.edu.gh",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "U Ghana",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Computer Engineering",
       "host": "Kathleen Sienko"
     },
     {
       "scholar_id": "b9adce07-dd63-4459-bdcf-dc7bb20d271d",
       "name": "John-Doe Dordzro",
-      "email": "doe.dordzro@ucc.edu.gh",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "University of Cape Coast",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Music",
       "host": "Kwasi Ampene (LSA: DAAS)"
     },
     {
       "scholar_id": "a916531d-223d-43f4-9d81-ce7a4e9a6d77",
       "name": "Justus Twesigye",
-      "email": "justustwesigye@yahoo.com",
       "country": "Uganda",
+      "gender": "Male",
       "institution": "Makerere U",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Social Work",
       "host": "Trina Shanks (Social Work)"
     },
     {
       "scholar_id": "9ea4fdb0-a5eb-4d5e-ab5b-14ae4592980c",
       "name": "Laston Manja",
-      "email": "lmanja@cc.ac.mw",
       "country": "Malawi",
+      "gender": "Male",
       "institution": "U Malawi",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Economics",
       "host": "Dean Yang"
     },
     {
       "scholar_id": "35355337-82c9-404c-bd34-941e375ff461",
       "name": "Lorette Arendse",
-      "email": "lorette.arendse@up.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "U Pretoria",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Law",
       "host": "Daniel Halberstam"
     },
     {
       "scholar_id": "9b1c6562-ac9e-410d-aba0-8a29978eaf32",
       "name": "Millon Mengesha",
-      "email": "million.alemayehu@aau.edu.et",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "AAU",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Geology",
       "host": "Naomi Levin"
     },
     {
       "scholar_id": "45aa35b9-33a6-44e0-b5ab-6caedba3fd85",
       "name": "Mohammed Ali",
-      "email": "mohammedseid1997@gmail.com",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "Bahir Dar University",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Political Science and International Studies",
       "host": "Laura Beny (Law School)"
     },
     {
       "scholar_id": "d87258d2-1fb8-4bb7-a6f8-b7f84c678d44",
       "name": "Nosipho Mngomezulu",
-      "email": "nosipho.mngomezulu@wits.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "Wits",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Social Anthropology",
       "host": "Jatin Dua"
     },
     {
       "scholar_id": "c3e03400-b610-4873-bbe7-51e192872015",
       "name": "Oluwabunmi Bernard",
-      "email": "bunmibernard@yahoo.co.uk",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "Obafemi Awolowo University",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "African Languages",
       "host": "Omolade Adunbi (LSA: DAAS)"
     },
     {
       "scholar_id": "44dddac1-97a8-43da-94b2-ddfae7097f25",
       "name": "Phutti Sepuru",
-      "email": "phuti.sepuru@up.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "U Pretoria",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Music",
       "host": "Ellen Rowe"
     },
     {
       "scholar_id": "b16abd8e-d050-4954-b98c-4dc71788aee9",
       "name": "Pierre Kalenga Mubiayi",
-      "email": "kalenga.mubiayi@wits.ac.za",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "Wits",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Nanotechnology",
       "host": "Roy Clarke"
     },
     {
       "scholar_id": "abef70fa-30a0-4ec1-9988-5e7af2d5f694",
       "name": "Purity Muthoni",
-      "email": "muthoni_purity@ymail.com; njeri.purity@ku.ac.ke",
       "country": "Kenya",
+      "gender": "Female",
       "institution": "Kenyatta University",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Environmental Planning and Management",
       "host": "Martin Murray (LSA: DAAS; Architecture)"
     },
     {
       "scholar_id": "7c593bd5-c537-45cb-8cb6-68e00bf8716e",
       "name": "Sevias Guvuriro",
-      "email": "guvuriros@ufs.ac.za, sguvuriro@yahoo.com",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "University of the Freestate",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Economics",
       "host": "Erin Krupka (School of Information)"
     },
     {
       "scholar_id": "97a8cbfc-ddb5-4c57-aa28-4ec7a00d2fb7",
       "name": "Stephen Ajwang",
-      "email": "soloo@rongovarsity.ac.ke; oloohs@gmail.com",
       "country": "Kenya",
+      "gender": "Male",
       "institution": "Rongo U",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Information Technology",
       "host": "HV (Jag) Jagadish"
     },
     {
       "scholar_id": "6e76f63f-906e-4f84-952b-c6a1b89e5656",
       "name": "Tolulope Olawole",
-      "email": "tolulope.olawole@covenantuniversity.edu.ng, tolulopeolawole@yahoo.com",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "Covenant University",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Biochemistry",
       "host": "Jackie Goodrich (SPH: Environmental Health Sciences)"
     },
     {
       "scholar_id": "726eefa4-1653-4d4d-9dd8-e867bb8fef52",
       "name": "Usisipho Feleni",
-      "email": "felenu@unisa.ac.za; usengfellz@gmail.com",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "UNISA",
       "cohortYear": 2021,
-      "semester": null,
+      "semester": "Fall",
       "discipline": "Nanotechnology",
       "host": "Bart Bartlett (LSA: Chemistry)"
     },
     {
       "scholar_id": "0be2fefe-c5c2-47b1-9798-9c7218960aa1",
       "name": "(Johannes) (Machinya)",
-      "email": "joemachinya@gmail.com",
       "country": "South Africa",
+      "gender": "Male",
       "institution": null,
       "cohortYear": 2019,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (2019, Wits) Sociology",
       "host": "Anne Pitcher (DAAS)"
     },
     {
       "scholar_id": "6f938da7-b8e2-473c-85a9-81bfa5634bce",
       "name": "Abigiya Tilahun",
-      "email": "tesmerewa@yahoo.com",
       "country": "Ethiopia",
+      "gender": "Female",
       "institution": "AAU",
       "cohortYear": 2019,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA (Institute of Ethiopian Studies, AAU) Cultural Studies",
       "host": "Anita Gonzales (SMTD)"
     },
     {
       "scholar_id": "6f938da7-b8e2-473c-85a9-81bfa5634bce",
       "name": "Abigiya Tilahun",
-      "email": "tesmerewa@yahoo.com",
       "country": "Ethiopia",
+      "gender": "Female",
       "institution": "AAU",
       "cohortYear": 2019,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MPH (YEAR, Addis Ababa University)",
       "host": "Bradley J. Zebrack (School of Social Work)"
     },
     {
       "scholar_id": "d2fded5a-17f5-4d4d-9934-df0a50cab77e",
       "name": "Aminu Dramani",
-      "email": "daminu.cass@knust.edu.gh, aminudramani@gmail.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "KNUST",
       "cohortYear": 2019,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MPhil (University of Ghana, Legon) Political Science",
       "host": "Mike McGovern (Anthropology)"
     },
     {
       "scholar_id": "772dcf25-3482-4e91-bf4c-486e1eb96e7c",
       "name": "Chinwe Ikpo",
-      "email": "cikpo@uwc.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "UWC",
       "cohortYear": 2019,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (UWC, 2011) Chemistry",
       "host": "Ferdinand Poudeu-Poudeu (Materials Science and Engineering)"
     },
     {
       "scholar_id": "4b74fd22-ebb6-4b26-8bfa-5df17827bb68",
       "name": "Darlington David",
-      "email": "dsydavid@ieee.org; davidds@ul.edu.lr",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "UL",
       "cohortYear": 2019,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (University of Ilorin, Nigeria, 2012) Applied Mathematics",
       "host": "Trachette Jackson (Mathematics)"
     },
     {
       "scholar_id": "a7fc3fc0-9911-477f-ace0-846700b60da5",
       "name": "Doreen Agyei",
-      "email": "daagyei.law@knust.edu.gh",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "KNUST",
       "cohortYear": 2019,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "LLM (YEAR, University of Hertfordshire, UK)",
       "host": "Jessica Litman (Law)"
     },
     {
       "scholar_id": "d28d274a-fd24-467f-94a2-739cc6bfcbb2",
       "name": "Hayal Yimer",
-      "email": "hayal.desta@aau.edu.et; hayaldesta@gmail.com",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "AAU",
       "cohortYear": 2019,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (Addis Ababa University, 2006) Environmental Planning",
       "host": "Larrisa Larsen (Urban and Regional Planning, Taubman CA&UP)"
     },
     {
       "scholar_id": "6d04cc5a-cc82-42a7-9487-b9ca37f29782",
       "name": "John Hena, Jr.",
-      "email": "johnhena86@yahoo.com; jsenkulohena@gmail.com",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "UL",
       "cohortYear": 2019,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc (Kenyatta University, Kenya) Applied Analytical Chemistry",
       "host": "Robert Kennedy (Chemistry)"
     },
     {
       "scholar_id": "932dc640-9183-46ca-a4bb-156882585e27",
       "name": "John-Baptist Imokola",
-      "email": "jbimokola@chuss.mak.ac.ug; imokola@gmail.com",
       "country": "Uganda",
+      "gender": "Male",
       "institution": "Makere U",
       "cohortYear": 2019,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA (Makerere) Journalism and Communication",
       "host": "Stuart Soroka (Communication Studies and Political Science)"
     },
     {
       "scholar_id": "b6664b8d-2175-4a91-a75b-4599bc165263",
       "name": "Meseret Desta",
-      "email": "meseretkassie@gmail.com; meseret.kassie@uog.edu.et",
       "country": "Ethiopia",
+      "gender": "Female",
       "institution": "Gondar",
       "cohortYear": 2019,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (University of Natural Resources and Life Sciences (BOKU), Austria, 2015) Natural Resources and Life Sciences",
       "host": "Rebecca Hardin (SEAS)"
     },
     {
       "scholar_id": "efcebea7-44b6-45e1-a0d0-1dc867544ef1",
       "name": "Philile Mbatha",
-      "email": "phililembatha87@gmail.com",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "UCT",
       "cohortYear": 2019,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (UCT, 2018) Environmental and Geographical Science",
       "host": "Bilal Butt (SEAS)"
     },
     {
       "scholar_id": "86d41f80-8d32-4ce9-8343-a02eb7b5aa23",
       "name": "Valentine Ucheagwu",
-      "email": "afamval@yahoo.com;",
       "country": "Nigeria",
+      "gender": "Male",
       "institution": "Chukwuemeka Odumegwu Ojukwu U",
       "cohortYear": 2019,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (Ebonyi State University, Nigeria, 2014) Counseling Psychology",
       "host": "Bruno Giordani (Psychiatry, Medical School)"
     },
     {
       "scholar_id": "0aae35c2-bd82-43cb-9110-fad2a04970da",
       "name": "Wawa Nkosi",
-      "email": "nkosiwawa@gmail.com",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "Stellenbosch U.",
       "cohortYear": 2019,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "check CV",
       "host": "Williiam (Jim) Adams (Economics)"
     },
     {
       "scholar_id": "9c387be2-d67f-404b-aafe-7f49bd9e960b",
       "name": "Adelaide Nieguitsila",
-      "email": "a_nieguitsila@univ-masuku.ga",
       "country": "Gabon",
+      "gender": "Female",
       "institution": "U. Sci Tech Masuku",
       "cohortYear": 2018,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (2008, University of Cellular and Molecular Biology, FR) Parasitology and Mycology",
       "host": "Lutgarde Raskin (Civil and Environmental Engineering)"
     },
     {
       "scholar_id": "86047d5d-9abd-4050-9ebc-7c0962969636",
       "name": "Christina Osei-Asare",
-      "email": "coseiasare@gmail.com",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "Central U.",
       "cohortYear": 2018,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MPhil (2014, KNUST), MBA (2010, Delta International Unviersity of New Orleans, USA), Pharmacy",
       "host": "David Sherman (Pharmacy)"
     },
     {
       "scholar_id": "53cfaa29-fbe7-4a9f-8651-f16390a7fe73",
       "name": "David Ngendo Tshimba",
-      "email": "dntshimba@umu.ac.ug",
       "country": "Uganda",
+      "gender": "Male",
       "institution": "Kwara State U. Malete",
       "cohortYear": 2018,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA (2012, Uganda Martyrs U.) Political History and Peace Studies",
       "host": "Derek Peterson (History)"
     },
     {
       "scholar_id": "ab575f81-1db9-4fca-826c-0dd694d5d791",
       "name": "Demis Mengist Wudeneh",
-      "email": "demismengist@gmail.com",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "U. Gondar",
       "cohortYear": 2018,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA (Addis Ababa U) Geography and Environmental Studies",
       "host": "Arun Agrawal (SEAS)"
     },
     {
       "scholar_id": "ef49a984-ee9f-44d9-a9f7-75771a581501",
       "name": "Faida Zacharia",
-      "email": "faidazaka@gmail.com",
-      "country": "Tanzania, United Republic of",
+      "country": "Tanzania",
+      "gender": "Female",
       "institution": "U. Dodoma",
       "cohortYear": 2018,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Msc (2011, University of Dar es Sakaam) Natural Resource Management and Development",
       "host": "Kelly Askew (Anthropology/DAAS)"
     },
     {
       "scholar_id": "ec650f0a-e5eb-4add-bb6e-17d4d29a23ff",
       "name": "Jacqueline Adongo",
-      "email": "adojacquie@gmail.com",
       "country": "Uganda",
+      "gender": "Female",
       "institution": "Makerere U.",
       "cohortYear": 2018,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA (2014, Makerere University), Literature",
       "host": "Elizabeth Goodenough (Residential College)"
     },
     {
       "scholar_id": "521cec5b-bb87-404e-a4cc-8aa1b4f4a040",
       "name": "Kabir O. Otun",
-      "email": "otunkabir2705@gmail.com; kabir.otun@kwasu.edu.ng",
       "country": "Nigeria",
+      "gender": "Male",
       "institution": "Kwara State U. Malete",
       "cohortYear": 2018,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "find on CV",
       "host": "Adam Matzger (Chemistry)"
     },
     {
       "scholar_id": "9bb0843b-57e0-4056-bd8d-610d86228635",
       "name": "Kholekile Nicholas Malindi",
-      "email": "kholekile@sun.ac.za",
       "country": "Saudi Arabia",
+      "gender": "Male",
       "institution": "Stellenbosch U.",
       "cohortYear": 2018,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "M. Comm (2013, Stellenbosch University), Economics",
       "host": "David Lam (ISR; Economics)"
     },
     {
       "scholar_id": "269d159c-b0c4-472b-b45e-b821e640bc5b",
       "name": "Lemlem Beza (Demisse)",
-      "email": "lemnene33@yahoo.com",
       "country": "Ethiopia",
+      "gender": "Female",
       "institution": "Addis Ababa U.",
       "cohortYear": 2018,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA (Addis Ababa U.) Emergency Medicine and Critical Care Nurse",
       "host": "Sue Anne Bell (Nursing)"
     },
     {
       "scholar_id": "d41e8a1d-662b-4d9b-9eae-13161755dc8c",
       "name": "Okechukwu Nwafor",
-      "email": "charles21007@gmail.com; oc.nwafor@unizik.edu.ng",
       "country": "Nigeria",
+      "gender": "Male",
       "institution": "Nnamdi Azikiwe U",
       "cohortYear": 2018,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD 2012, UWC (visual History)",
       "host": "Omolade Adunbi (DAAS)"
     },
     {
       "scholar_id": "106ea1b2-8773-4d2b-bcb6-fc9cd8d3115a",
       "name": "Patrick Cobbinah",
-      "email": "patrick.cobbinah@unimelb.edu.au",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "KNUST",
       "cohortYear": 2018,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (2014, Charles Sturt University, AU) Human Geography",
       "host": "Larissa Larsen (Urban Planning)"
     },
     {
       "scholar_id": "ea264e51-6d9f-41a2-9867-325547474eb9",
       "name": "Tebaber Chanie Workneh",
-      "email": "tebaberworkneh@gmail.com",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "U. Gondar",
       "cohortYear": 2018,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (2010, Addis Ababa U.) Social Anthropology",
       "host": "Elizabeth King (Public Health)"
     },
     {
       "scholar_id": "ae5614e1-8611-4dda-be3f-91bcdf1cc530",
       "name": "Uhuru Portia Phalafala",
-      "email": "uphalafala@sun.ac.za",
       "country": "Saudi Arabia",
+      "gender": "Female",
       "institution": "Stellenbosch U.",
       "cohortYear": 2018,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (2016, UCT), Literature",
       "host": "Gaurav Desai (English)"
     },
     {
       "scholar_id": "2869b3f2-5966-4cc6-9a19-aab0b94d3675",
       "name": "Zerihun Birehanu Sira",
-      "email": "zere324@yahoo.com",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "Addis Ababa U.",
       "cohortYear": 2018,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA (2014, University of Warwich, UK), International Performance Research",
       "host": "Anita Gonzalez (Theater)"
     },
     {
       "scholar_id": "0a094534-50ef-4ae9-ae0b-8936e312b7f1",
       "name": "Audrey Kalindi",
-      "email": "audreykalindi@gmail.com; : audrey.kalindi@anu.edu.au",
       "country": "Zambia",
+      "gender": "Female",
       "institution": "U of Zambia",
       "cohortYear": 2017,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA (U Zambia) Population Studies",
       "host": "A. Oveta Fuller (Microbiology and Immunology, Med School)"
     },
     {
       "scholar_id": "2c0e9ad7-6df8-4b6d-b00e-4d3586bdb3b5",
       "name": "Debela Gemeda Bedane",
-      "email": "debe430@yahoo.com",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "St Paul's Hospital Millenium Medical College",
       "cohortYear": 2017,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc (2004, AAU), Pharmacology",
       "host": "Srijan Sen (Psychiatry, Med School); Vicki Ellingrod (Pharmacy); Laura Jean Scott (Biostatistics)"
     },
     {
       "scholar_id": "1708be1f-1047-4942-8111-ffe2f1675cdb",
       "name": "Gereme Melessew Nigussie",
-      "email": "melessewnigussie@yahoo.com",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "Bahir Dar U",
       "cohortYear": 2017,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (Bahir Dar U & International Center for Theoretical Physics, Italy; 2014) Space Physics",
       "host": "Mark Moldwin (Climate and Space Sciences, CoE)"
     },
     {
       "scholar_id": "f4121dbb-45f4-4703-aa6c-0b8f43e1dca2",
       "name": "Girume Erenso Degu",
-      "email": "girumerenso@gmail.com",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "St Paul's Hospital Millenium Medical College",
       "cohortYear": 2017,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc (2006, AAU), Microbiology, Immunology & Paristology",
       "host": "Thomas Carey (Otorhinolaryngology and Pharmacology, Med School)"
     },
     {
       "scholar_id": "7d0359ba-5559-42bf-8f8e-d53fd4f4594f",
       "name": "Kalilu Samuka Donzo",
-      "email": "donzokalilu246@gmail.com",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U of Liberia",
       "cohortYear": 2017,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc (Kerala Agricultural U, India) Plant Biotechnology",
       "host": "W Clay Brown (Life Sciences Institute); James Deproposto"
     },
     {
       "scholar_id": "37f59315-4345-444e-a7ae-be1d65c1975b",
       "name": "Mestewat Debasu Mognhodie",
-      "email": "dmestewat@yahoo.com",
       "country": "Ethiopia",
+      "gender": "Female",
       "institution": "St Paul's Hospital Millenium Medical College",
       "cohortYear": 2017,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc (2013, AAU), Medical Biochemistry",
       "host": "David Lubman (Surgery, Med School)"
     },
     {
       "scholar_id": "0de09916-367d-4ec2-ac9c-8f033ea5d55d",
       "name": "Moses Muhumuza",
-      "email": "musacot@gmail.com",
       "country": "Uganda",
+      "gender": "Male",
       "institution": "Mountains of the Moon U",
       "cohortYear": 2017,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (Wits, 2014) Animal, Plant, and Environmental Sciences",
       "host": "Nyeema Harris (Ecology and Evolutionary Biology)"
     },
     {
       "scholar_id": "50ffc06b-ecf5-4245-88f8-99fa1ddadefa",
       "name": "Mthokozisi Simelane",
-      "email": "msimelane@uj.ac.za",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "U KwaZulu-Natal",
       "cohortYear": 2017,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (U Zululand, 2013), Biochemistry",
       "host": "Vernon Carruthers (Microbiology and Immunology, Med School)"
     },
     {
       "scholar_id": "86ca13f2-6a7b-4e21-9ded-0ea59b429244",
       "name": "Odur Benard",
-      "email": "odurbenard@yahoo.com; bodur@bams.mak.ac.ug",
       "country": "Uganda",
+      "gender": "Male",
       "institution": "Makerere",
       "cohortYear": 2017,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc (Makerere U), Biostatistics",
       "host": "Brisa Sanchez (Biostatistics, Public Health) and Bhramar Mukherjee (Biostatistics, PH)"
     },
     {
       "scholar_id": "df197a1f-bbea-4256-bd29-4eb4a5a341ec",
       "name": "Oluwakemi A. Rotimi",
-      "email": "kemi.rotimi@covenantuniversity.edu.ng",
       "country": "Nigeria",
+      "gender": "Female",
       "institution": "Covenant U",
       "cohortYear": 2017,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (Federal U Agriculture, Abeokuta, Nigeria, 2014) Biochemistry (toxology)",
       "host": "Jaclyn Goodrich (Environmental Health Sciences, Public health)"
     },
     {
       "scholar_id": "6a05f35a-13cb-48ee-99f1-2126babb6e56",
       "name": "Pamela Khanakwa",
-      "email": "pkhanakwa@gmail.com",
       "country": "Uganda",
+      "gender": "Female",
       "institution": "Makerere",
       "cohortYear": 2017,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (Northwestern U, 2011) History",
       "host": "Derek Peterson (History/DAAS)"
     },
     {
       "scholar_id": "a675e91c-8129-489c-828f-b190504bc66a",
       "name": "Precious Ndlovu",
-      "email": "ndlovupn@gmail.com",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "UWC",
       "cohortYear": 2017,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "LLD (U Fort Hare)",
       "host": "Gabriel Rauterberg (Law) and Laura Beny (Law)"
     },
     {
       "scholar_id": "865a2791-03bf-4fe5-a501-080056487d47",
       "name": "Senyo Adzei",
-      "email": "senyoadzei@gmail.com and sadzei@ucc.edu.gh",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "UCC",
       "cohortYear": 2017,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MPhil (UG), Music",
       "host": "Naomi Andre (DAAS, RC, Women's Studies)"
     },
     {
       "scholar_id": "2df89000-92f9-4efa-b53a-b55f92476b27",
       "name": "Thelma Fennie",
-      "email": "tfennie@uwc.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "UWC",
       "cohortYear": 2017,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MPhil (Stellenbosch U), HIV/AIDS management",
       "host": "Rona Carter (Psychology)"
     },
     {
       "scholar_id": "7ffd2037-a799-4adf-aa33-8ae6275bb749",
       "name": "Veronica Millicent Dzomeku",
-      "email": "vmdzomeku@gmail.com",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "KNUST",
       "cohortYear": 2017,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (UWC, April 2017) Nursing",
       "host": "Jody Lori (School of Nursing)"
     },
     {
       "scholar_id": "4932f12f-a215-4126-83fa-bdb2e1f17860",
       "name": "Yikunnoamlak Mezgebu",
-      "email": "yikunnoamlak@gmail.com",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "Addis Ababa U",
       "cohortYear": 2017,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA (AAU), Journalism and Communication; Philosophy",
       "host": "Judith Irvine (Anthropology); Daniel Herwitz (History of Art/ Comp Lit); Raymond Silverman (Hist of Art/DAAS)"
     },
     {
       "scholar_id": "48c04ba1-fe41-4ae0-a889-db146b506a26",
       "name": "Zewdu Jima Takle",
-      "email": "ztakle@umich.edu",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "St Paul's Hospital Millenium Medical College",
       "cohortYear": 2017,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc (2012, AAU) Human Physiology",
       "host": "Daniel Lawrence (cardiovascular medicine, Med school)"
     },
     {
       "scholar_id": "b13c5480-adae-4ca9-bc7c-e12143190dc7",
       "name": "Babajide Ololajulo",
-      "email": "babjid74@yahoo.com",
       "country": "Nigeria",
+      "gender": "Male",
       "institution": "U Ibadan",
       "cohortYear": 2016,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (2006, U Ibadan), Anthropology",
       "host": "Omolade Adunbi (DAAS)"
     },
     {
       "scholar_id": "dec81f89-6afb-408e-9b90-7afef377906c",
       "name": "Dagnachew Belete (now: Adugna)",
-      "email": "dagnachew2@gmail.com; dagnachew.adugna@eiabc.edu.et",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "Addis Ababa U",
       "cohortYear": 2016,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc Environmental Engineering, MA Urban management",
       "host": "Larissa Larsen (Urban Planning)"
     },
     {
       "scholar_id": "f59a931e-70ae-4a36-9886-13226a156972",
       "name": "Fitsum Andargie",
-      "email": "fitsum.assamnew@aait.edu.et",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "Addis Ababa U",
       "cohortYear": 2016,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc Computer Engineering",
       "host": "Todd Austin (Computer Engin)"
     },
     {
       "scholar_id": "62b44d05-876b-4a55-833d-8168c2f208b0",
       "name": "Gerald Walulya",
-      "email": "werald@gmail.com",
       "country": "Uganda",
+      "gender": "Male",
       "institution": "Makerere",
       "cohortYear": 2016,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MPhil (U Oslo, Norway), Media Studies",
       "host": "Joyojeet Pal"
     },
     {
       "scholar_id": "ceec462b-0ee5-4cff-abc4-dc8c81a79d11",
       "name": "Hiruy Tefera",
-      "email": "hiruydaniel@yahoo.com",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "Addis Ababa U",
       "cohortYear": 2016,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA Archaeology",
       "host": "Raymond Siverman (DAAS/Hist of Art)"
     },
     {
       "scholar_id": "81501fa1-6ab9-4140-9c40-20bfb69de62d",
       "name": "Ian Bekker",
-      "email": "ian.bekker@nwu.ac.za",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "North-West U",
       "cohortYear": 2016,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (2008, North-West U) English",
       "host": "Pam Beddor (Linguistics)"
     },
     {
       "scholar_id": "ead58ca7-752c-47ea-b706-338f95537fd8",
       "name": "Moses Flomo",
-      "email": "mflomo1989@gmail.com and 0881808740/0778310612/mflomo1989@gmail.com",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "Cuttington U",
       "cohortYear": 2016,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc Material Science and Engineering",
       "host": "Pierre Poudeu (Engineering)"
     },
     {
       "scholar_id": "23ca4230-eb35-4753-9d4e-cc02751cc513",
       "name": "Netsanet Weldesenbet",
-      "email": "netsanetmichael@gmail.com",
       "country": "Ethiopia",
+      "gender": "Female",
       "institution": "Addis Ababa U",
       "cohortYear": 2016,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA Contemporary Cultural Studies",
       "host": "Martin Murray (DAAS/Urban Planning)"
     },
     {
       "scholar_id": "56571de9-0381-4b11-86a2-cf4497aa5b4f",
       "name": "Priscilla Mante",
-      "email": "mantepk@yahoo.co.uk",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "KNUST",
       "cohortYear": 2016,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (2012, KNUST), Pharmacology",
       "host": "Lori Isom (Pharmacology)"
     },
     {
       "scholar_id": "0bc847e2-5cd0-4a85-8edc-cda0ac3a9dc2",
       "name": "Samuel Johnson",
-      "email": "smawoloj@gmail.com",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U Liberia",
       "cohortYear": 2016,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "BSc Chemistry, MA Educational Administration",
       "host": "Brian Coppola (Chemistry)"
     },
     {
       "scholar_id": "3dd22c15-56f7-480b-b0cd-629dff15a490",
       "name": "Thabit Kasari (Jacob)",
-      "email": "thabitsenior.jacob@gmail.com",
-      "country": "Tanzania, United Republic of",
+      "country": "Tanzania",
+      "gender": "Male",
       "institution": "U Dodoma",
       "cohortYear": 2016,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Msc Natural Resources",
       "host": "Howard Stein (DAAS)"
     },
     {
       "scholar_id": "490d6b1b-2cb4-4d3a-99bb-c7ea1a5bfe6d",
       "name": "Zerihun Workneh",
-      "email": "getanehzerihun@gmail.com",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "Addis Ababa U",
       "cohortYear": 2016,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Msc Environmental Technology",
       "host": "Nancy Love and Johannes Schwank (Engineering)"
     },
     {
       "scholar_id": "94078bf5-9ef3-490e-8872-f2ac615cf63b",
       "name": "Adey Desta",
-      "email": "adey.desta@gmail.com",
       "country": "Ethiopia",
+      "gender": "Female",
       "institution": "Addis Ababa U",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (Addis Ababa U, 2014), Applied Microbiology",
       "host": "Nancy Love; Krista Wigginton"
     },
     {
       "scholar_id": "a3722e47-9918-4362-ba18-137f6c11c676",
       "name": "Akye Essuman",
-      "email": "akyessuman@yahoo.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "UG",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MBChB (U Ghana, 1992), Medicine; FWACP (W Afr College of Physicians post-grad program, 2005)",
       "host": "Philip Zazove (Family Medicine); Katy Gold (also informal mentors: Ghazwan Toma & Amal Othman, MDs"
     },
     {
       "scholar_id": "eeb91286-3b29-43da-8fd9-e61d37ce24a4",
       "name": "Christian Obirikorang",
-      "email": "krisobiri@yahoo.com; chrisobiri@gmail.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "KNUST",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (KNUST, 2010), Chemical Pathology",
       "host": "David Burke"
     },
     {
       "scholar_id": "82771ab2-d3c7-48ee-9add-63d45a33bdcc",
       "name": "Elisabeth Mimiafou NOW: Ayuk-Etang",
-      "email": "miafoueli@yahoo.com",
       "country": "Cameroon",
+      "gender": "Female",
       "institution": "U Buea",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (U Yaounde, 2013), African, Caribbean & American Literature",
       "host": "Frieda Ekotto; Petra Kuppers"
     },
     {
       "scholar_id": "df857465-df82-46b8-953c-7f160cbff88c",
       "name": "Elizabeth Nansubuga",
-      "email": "enansubuga@gmail.com",
       "country": "Uganda",
+      "gender": "Female",
       "institution": "Makerere",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc (Makerere), Population and reproductive health",
       "host": "Cheryl Moyer"
     },
     {
       "scholar_id": "ef08ec0d-39b7-4e49-ace7-cc1eaf382caf",
       "name": "Emmanuel Miyingo",
-      "email": "miyingo@yahoo.com",
       "country": "Uganda",
+      "gender": "Male",
       "institution": "Makerere",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc (Makerere), Renewable Energy",
       "host": "Roy Clarke"
     },
     {
       "scholar_id": "cb913bac-ff69-4d49-bb32-9698cd536e35",
       "name": "Endale Hagdu Gebregzabher",
-      "email": "endalehadgu@yahoo.com; also uses: egebregz@umich.edu",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "Addis Ababa U",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc, Medical Biochemistry",
       "host": "Sofia Merajver"
     },
     {
       "scholar_id": "a014fad4-0d89-421f-bc5e-7c3d9733d722",
       "name": "Jacques Tagoudjeu",
-      "email": "jtagoudjeu@gmail.com",
       "country": "Cameroon",
+      "gender": "Male",
       "institution": "U Yaounde",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (U Yaounde, 2010), Mathematics",
       "host": "Dan Burns; Nkem Khumbah; Robert krasny (Math)"
     },
     {
       "scholar_id": "b4bb2ff0-1efa-4513-827b-2cc6448c4a9d",
       "name": "John Ulumara",
-      "email": "johnulumara@yahoo.com",
-      "country": "Tanzania, United Republic of",
+      "country": "Tanzania",
+      "gender": "Male",
       "institution": "U Dodoma",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc (U Dar Es Salaam), Natural Resources Assessment",
       "host": "Kelly Askew"
     },
     {
       "scholar_id": "2431ae52-f467-46fc-ad5f-235c2194dd02",
       "name": "Joy Gumikiriza",
-      "email": "joyonoria@gmail.com",
       "country": "Uganda",
+      "gender": "Female",
       "institution": "Makerere",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": null,
       "host": "Bruno Giordani; Kristen Barry"
     },
     {
       "scholar_id": "f46c03a9-b37f-4a34-9b35-25e3956a38ba",
       "name": "Lawrence Ocen",
-      "email": "lauryocen70@gmail.com",
       "country": "Uganda",
+      "gender": "Male",
       "institution": "Lira U College",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA, Literature",
       "host": "Derek Peterson"
     },
     {
       "scholar_id": "701a2c7b-48ce-4037-bc79-c018be36a01d",
       "name": "L\u00e9on Tsambu",
-      "email": "leon_tsambu@yahoo.com; leon.tsambu@gmail.com",
-      "country": "DRC",
+      "country": "Democratic Republic of the Congo",
+      "gender": "Male",
       "institution": "U Kinshasa",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (U Kinshasa, 2012), Sociology",
       "host": "Nancy Hunt"
     },
     {
       "scholar_id": "eac08ac6-e451-4e7a-8bfe-0eb8437ff603",
       "name": "Natasha Ross",
-      "email": null,
       "country": "South Africa",
+      "gender": "Female",
       "institution": "U Western Cape",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "nross@uwc.ac.za",
       "host": null
     },
     {
       "scholar_id": "96a5775c-ca8c-456c-aee2-637cfb894b65",
       "name": "Natasha Ross",
-      "email": "nross@uwc.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "UWC",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (UWC, 2013), Chemistry",
       "host": "Mark Barteau"
     },
     {
       "scholar_id": "29934fe2-b1ab-4b34-a37f-1f4ea488c850",
       "name": "Semeneh Asfaw",
-      "email": "miresemeneh@gmail.com",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "Addis Ababa U",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA (AAU), History",
       "host": "Mike McGovern"
     },
     {
       "scholar_id": "e138c138-ccd9-4454-92c6-0bf99480f48f",
       "name": "Sisay Addisu Bekele",
-      "email": "sisay.addisu@aau.edu.et",
       "country": "Ethiopia",
+      "gender": "Male",
       "institution": "Addis Ababa U",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc, Biochemistry",
       "host": "Sofia Merajver"
     },
     {
       "scholar_id": "02e10631-e7bd-43de-b485-2055cec822b1",
       "name": "Vangile Bingma",
-      "email": null,
       "country": "South Africa",
+      "gender": "Female",
       "institution": "U Pretoria",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "vangile.bingma@gmail.com",
       "host": null
     },
     {
       "scholar_id": "b325c524-6570-40c9-8ca1-1b753b490726",
       "name": "Vangile Bingma",
-      "email": "vangile.bingma@gmail.com",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "UP",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSocSci (UP), Sociology",
       "host": "Barbara A. Anderson"
     },
     {
       "scholar_id": "2529ee80-ab8d-4982-8e82-15d7f258bb5b",
       "name": "Yonatan Fessha",
-      "email": null,
       "country": "South Africa",
+      "gender": "Male",
       "institution": "U Western Cape",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "yfessha@gmail.com",
       "host": null
     },
     {
       "scholar_id": "5b9b79d2-cf1a-49cd-aa6d-913e40fb3725",
       "name": "Yonatan Fessha",
-      "email": "yfessha@gmail.com",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "UWC",
       "cohortYear": 2015,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (UWC, 2008), Law",
       "host": "Daniel Halberstam"
     },
     {
       "scholar_id": "8303b486-d05d-476a-bc9f-f3e8035cb24b",
       "name": "Amy Niang",
-      "email": "aniang@gmail.com; amy.niang@um6p.ma",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "old: WITS new: Mohammed VI Polytechnic University, Morocco",
       "cohortYear": 2014,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (U Edinburgh, 2011), Politics and International Relations",
       "host": "Gabrielle Hecht"
     },
     {
       "scholar_id": "cf349a48-2857-48f2-b322-ff40ce23a280",
       "name": "Dennis Chirawurah",
-      "email": "sebagnabu@yahoo.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "UDS",
       "cohortYear": 2014,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MS (KNUST), Health Services Planning and Management",
       "host": "Elisha P. Renne"
     },
     {
       "scholar_id": "c14070b2-cc60-48cd-b470-896b13a39bb7",
       "name": "Dennis Ikpe",
-      "email": "denmaths@yahoo.com and ikpedenn@msu.edu",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "UNISA",
       "cohortYear": 2014,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MS (UNISA), Applied Mathematics",
       "host": "Erhan Bayraktar and Sergey Nadtochiy"
     },
     {
       "scholar_id": "b159a7e1-2233-444a-a35a-55f5d6233113",
       "name": "Gesler Murray",
-      "email": "gesleremurray@yahoo.com",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U Liberia",
       "cohortYear": 2014,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA (U Liberia), International Relations; now working in Geology and Mining Engineering",
       "host": "Adam Simon"
     },
     {
       "scholar_id": "15e2bf73-e4d5-4f61-a294-f26a8214d95d",
       "name": "Ignatius Ticha",
-      "email": "iticha@yahoo.com",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "Cape Peninsula U of Technology",
       "cohortYear": 2014,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (Stellenbosch, 2013), English Literature",
       "host": "Andrea Zemgulys"
     },
     {
       "scholar_id": "cd5c8437-4c7d-42b2-99c2-0ddf2b7eafda",
       "name": "John Boateng",
-      "email": "jkboat2009@gmail.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "UG",
       "cohortYear": 2014,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (Penn State, 2006), Agricultural and Extension Education",
       "host": "Cary Engleberg"
     },
     {
       "scholar_id": "fb06bf8c-14b7-4467-9dd3-b194dc5fce42",
       "name": "Linda Fondjo",
-      "email": "dammylee@yahoo.com",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "KNUST",
       "cohortYear": 2014,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (KNUST, 2010), Chemical Pathology (Molecular Medicine)",
       "host": "Frank Anderson, Cosmas Van de Ven and Timothy Johnson"
     },
     {
       "scholar_id": "9ae936b7-9293-4a7e-a4ea-a254791bc673",
       "name": "Mariam Boakye-Gyasi",
-      "email": "melboakyegyasi@gmail.com",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "KNUST",
       "cohortYear": 2014,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MPhil (Pharmaceutics)",
       "host": "Steven Schwendeman"
     },
     {
       "scholar_id": "e699cb51-d76c-4c22-b5ad-ef27236715c3",
       "name": "Muchaparara Musemwa",
-      "email": "mucha.musemwa@wits.ac.za, musemwa@yahoo.com",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "WITS University",
       "cohortYear": 2014,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (UMinnesota, 2003), History",
       "host": "Derek Peterson"
     },
     {
       "scholar_id": "19515162-4250-4082-a024-ffd7dd77bc0a",
       "name": "Nicole DeWet",
-      "email": "nic_dewet@yahoo.com nicole.dewet@wits.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "WITS",
       "cohortYear": 2014,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (WITS, 2013), Demography and Population Studies",
       "host": "Barbara A. Anderson"
     },
     {
       "scholar_id": "eb7075f0-c146-4da2-b311-19128305adcc",
       "name": "Nonyaniso Nkutu",
-      "email": "nonyaniso.nkutu@gmail.com",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "U Fort Hare",
       "cohortYear": 2014,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "M.Cur. (U Stellenbosch), Nursing Science",
       "host": "Patricia Coleman-Burns; Jody Lori"
     },
     {
       "scholar_id": "aa1a459a-0ac6-43cf-aa41-8dca1223ef50",
       "name": "Osei Owusu-Afriyie",
-      "email": "ooafriyie@gmail.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "Komfo Anokye Teaching Hospital",
       "cohortYear": 2014,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MBChB and MD (KNUST), Anatomic Pathology",
       "host": "Sofia Merajver"
     },
     {
       "scholar_id": "9de8da83-3fb5-4296-a1f1-830763680705",
       "name": "Renee Gerring",
-      "email": "reneegerring@yahoo.com",
       "country": "Liberia",
+      "gender": "Female",
       "institution": "U Liberia",
       "cohortYear": 2014,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "BS (York College, NY), Engineering",
       "host": "Dimitrios Zekkos"
     },
     {
       "scholar_id": "2542e594-5fc5-4837-8f0d-1002a8398b84",
       "name": "Samuel Nkumbaan",
-      "email": "snkumbaan@gmail.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "UG",
       "cohortYear": 2014,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MPhil (UG), Archaeology and Heritage Studies",
       "host": "Carla Sinopoli"
     },
     {
       "scholar_id": "82f4af0b-7f0b-490f-91dd-d275e73df423",
       "name": "Tshenesani (Nigel) Tapela",
-      "email": "tjeni.nigel@gmail.com",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "Cape Peninsula U of Technology, Cape Town",
       "cohortYear": 2014,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Masters (McGill), Urban Planning",
       "host": "Martin Murray"
     },
     {
       "scholar_id": "0b75fa0e-aa5c-45aa-a20b-eb42975ac06f",
       "name": "Evarist Ngabirano",
-      "email": "ngabiranoe2002@yahoo.com; engabirano@gmail.com",
       "country": "Uganda",
+      "gender": "Male",
       "institution": "Mountains of the Moon U",
       "cohortYear": 2013,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA (KU Leuven), Theology and Religion",
       "host": "Ray Silverman"
     },
     {
       "scholar_id": "14d7f316-3fd3-47d1-8c5c-55415d3858d7",
       "name": "Francis Kemausuor",
-      "email": "fkemausuor.soe@knust.edu.gh kemausuor@gmail.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "KNUST",
       "cohortYear": 2013,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Mphil, Engineering for Sustainable Development",
       "host": "Shellie Miller (primary) ; Greg Keoleain (secondary mentor)"
     },
     {
       "scholar_id": "39ae1d38-9698-4e1d-a9de-5a77c60f3715",
       "name": "Godwin Adjei",
-      "email": "gkadjei@ug.edu.gh",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "UG",
       "cohortYear": 2013,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (UG, XX), African Studies",
       "host": "Kwasi Ampene"
     },
     {
       "scholar_id": "9b949fed-59ac-4275-b885-2c8fa6a39bef",
       "name": "James McClain",
-      "email": "mcclainja@ul.edu.lr; mcclajam@gmail.com",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U Liberia",
       "cohortYear": 2013,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc, Physical Chemistry",
       "host": "Levi Thompson"
     },
     {
       "scholar_id": "180f9f70-1d69-44ba-ab57-5bb358e18428",
       "name": "Janet Boateng",
-      "email": "jboateng@ucc.edu.gh serwanies@yahoo.com",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "UCC",
       "cohortYear": 2013,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Mphil, Political Science",
       "host": "Anne Pitcher"
     },
     {
       "scholar_id": "cb746a0d-5869-4aa1-a5f6-a0e99485f91a",
       "name": "Janet Nakigudde",
-      "email": "jnakigudde@chs.mak.ac.ug, janetnakigudde@gmail.com",
       "country": "Uganda",
+      "gender": "Female",
       "institution": "Makerere",
       "cohortYear": 2013,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (Makerere U, 2011), Psychology",
       "host": "Bruno Giordani"
     },
     {
       "scholar_id": "e8cdb371-ab72-482c-a662-151e20e627b3",
       "name": "Kennedy Alatinga",
-      "email": "kalatinga@gmail.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "UDS",
       "cohortYear": 2013,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD Candidate, Public Policy",
       "host": "Dean Yang"
     },
     {
       "scholar_id": "780770ff-2b26-474e-942a-408cae0c0d40",
       "name": "Lilian Duku (now: Boateng)",
-      "email": "akosboak@yahoo.com",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "KNUST",
       "cohortYear": 2013,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc, Biomedical Science",
       "host": "Andrew Campbell"
     },
     {
       "scholar_id": "5f17f2ac-3d52-4328-a102-fb11e897b640",
       "name": "Ofosua Adi-Dako",
-      "email": "oadi-dako@ug.edu.gh daaako6007@gmail.com",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "UG",
       "cohortYear": 2013,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "M. Pharm (Pharmaceutics)",
       "host": "Steven P. Schwendemann"
     },
     {
       "scholar_id": "6bd1d142-6194-4a9e-8516-fa27e5256702",
       "name": "Sekibakiba Lekgoathi",
-      "email": "sekibakiba.lekgoathi@wits.ac.za",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "WITS",
       "cohortYear": 2013,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (U Minnesota, 2006), History",
       "host": "Adam Ashforth/ Derek Peterson (History/DAAS)"
     },
     {
       "scholar_id": "6725f642-f50e-42db-9af6-58917be9e16f",
       "name": "Sisa Ngabaza",
-      "email": "sngabaza@uwc.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "UWC",
       "cohortYear": 2013,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (UWC, 2011), Women's and Gender Studies",
       "host": "Sarah Fenstermaker"
     },
     {
       "scholar_id": "2d480038-ae69-4e2a-b71b-a46fd6432ab2",
       "name": "Wolobah Sali",
-      "email": "wolobah@yahoo.com",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U Liberia",
       "cohortYear": 2013,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA (Wits, XX), Physics",
       "host": "Larry Ruff"
     },
     {
       "scholar_id": "53d10926-b371-4c1c-99ca-c005966d4c37",
       "name": "D. Karfalah Johnson",
-      "email": "dkarfalah59@gmail.com",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U Liberia",
       "cohortYear": 2012,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Math",
       "host": "Divakar Viswanath"
     },
     {
       "scholar_id": "bc460ab9-6c2d-4c29-b728-b6c3f27f18f2",
       "name": "Edna Johnny",
-      "email": "e_johnny53@yahoo.com ednagjohnny@yahoo.com; ednajohnny6@gmail.com",
       "country": "Liberia",
+      "gender": "Female",
       "institution": "U Liberia",
       "cohortYear": 2012,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Economics",
       "host": "Rachel Snow"
     },
     {
       "scholar_id": "86ffc845-0158-4525-af3c-f04b4c1a2df6",
       "name": "Emilia Udofia",
-      "email": "emiliaudf@yahoo.com; emiliaudf@yahoo.com; eudofia@ug.edu.gh",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "UG",
       "cohortYear": 2012,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Public Health",
       "host": "Jerome Nriagu"
     },
     {
       "scholar_id": "b7765cdc-4916-4374-9cd6-2257f2f88a93",
       "name": "Eve Nabulya",
-      "email": "evenamala@gmail.com",
       "country": "Uganda",
+      "gender": "Female",
       "institution": "Makerere",
       "cohortYear": 2012,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA (Makerere), Literature",
       "host": "Jennifer Wenzel"
     },
     {
       "scholar_id": "09b8a1d8-614b-4cab-bbdf-88a8a572370e",
       "name": "Francis Aitpillah",
-      "email": "fraitp@yahoo.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "KNUST",
       "cohortYear": 2012,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MBChB (U Ghana) Medicine",
       "host": "Lisa Newman"
     },
     {
       "scholar_id": "80778b44-8a19-4562-b3d8-443a18a67eb6",
       "name": "Francis Bwambale",
-      "email": "francisbmf@gmail.com",
       "country": "Uganda",
+      "gender": "Male",
       "institution": "Makerere",
       "cohortYear": 2012,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc (Makere, 2005), Epidemiology",
       "host": "Jody Lori, Cheryl Moyer"
     },
     {
       "scholar_id": "c88a006c-a057-46fc-b3e3-db84f304436b",
       "name": "Innocentia Mhlambi",
-      "email": "innocentia.mhlambi@wits.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "WITS",
       "cohortYear": 2012,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (Wits, 2008), African Languages",
       "host": "Naomi Andre"
     },
     {
       "scholar_id": "5a3df789-8b00-4334-ae19-534a8f47ecd1",
       "name": "Justin Munyakazi",
-      "email": "jmunyakazi@uwc.ac.za",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "UWC",
       "cohortYear": 2012,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (UCT, 2009), Mathematics",
       "host": null
     },
     {
       "scholar_id": "288b0e0f-0df5-4d83-b4aa-cc32fec342b1",
       "name": "Mercy Badu",
-      "email": "mbadu0@gmail.com",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "KNUST",
       "cohortYear": 2012,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Chemistry",
       "host": "Phil Andrews"
     },
     {
       "scholar_id": "5a65c5ab-2d9d-46b4-b614-b6b1e6ff4bfb",
       "name": "Riashna Sithaldeen",
-      "email": "riashna.sithaldeen@uct.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "UCT",
       "cohortYear": 2012,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (UCT, 2011), Evolutionary Biology",
       "host": "Lacey Knowles"
     },
     {
       "scholar_id": "28179803-9586-42f5-917f-adf53d1e266b",
       "name": "Vivian Arhin-Sam (now: Boamah)",
-      "email": "veboamah.pharm@knust.edu.gh etsiapa@yahoo.com",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "KNUST",
       "cohortYear": 2012,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "M.Pharm (KNUST, 2009), Pharmaceutical Microbiology",
       "host": "Betsy Foxman"
     },
     {
       "scholar_id": "6ae059ee-158d-4344-b870-fd131ee0a261",
       "name": "Abraham Mensah",
-      "email": "aymensah.pharm@knust.edu.gh",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "KNUST",
       "cohortYear": 2011,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (King's College, U of London, 1999), Pharmacognosy",
       "host": "David Sherman (Pharmacy/Chemical Biology)"
     },
     {
       "scholar_id": "efebf347-f05c-4696-bc17-dd9031245b5c",
       "name": "Adolphus Nippae",
-      "email": "aanippae@yahoo.com",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U Liberia",
       "cohortYear": 2011,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Engineering",
       "host": "Prof. Amir Mortazawi, EECS"
     },
     {
       "scholar_id": "97213a0d-7b38-4137-8be9-c269faa4026b",
       "name": "Andrew State",
-      "email": "state@ss.mak.ac.ug; adyeeristate@gmail.com",
       "country": "Uganda",
+      "gender": "Male",
       "institution": "Makerere",
       "cohortYear": 2011,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (U Minnesota, 2005), Sociology",
       "host": "Mary Wright (CRLT)/ Derek Peterson (History/DAAS)"
     },
     {
       "scholar_id": "50a3a1ba-8492-47d0-9c38-469088c611dd",
       "name": "Christopher Muhoozi",
-      "email": "muhoozicc@gmail.com",
       "country": "Uganda",
+      "gender": "Male",
       "institution": "Makerere",
       "cohortYear": 2011,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA, History",
       "host": "Derek Peterson (History/DAAS)"
     },
     {
       "scholar_id": "85b3a311-7a62-4fcb-81d0-266246fd73db",
       "name": "Emmanuel Tenkorang",
-      "email": "eytenkorang@yahoo.co.uk",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "UCC",
       "cohortYear": 2011,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MPhil, Development Studies",
       "host": "Elisha Renne (Anthro/DAAS) & Rebecca Hardin (SNRE)"
     },
     {
       "scholar_id": "369a0dfd-d001-4a8b-b514-f40711a8a01b",
       "name": "Florence Asiimwe",
-      "email": "asiimwe@ss.mak.ac.ug florenceakiiki@gmail.com",
       "country": "Uganda",
+      "gender": "Female",
       "institution": "Makerere",
       "cohortYear": 2011,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (UCT, 2008), Sociology",
       "host": "Martin Murray (Urban Planning/DAAS)"
     },
     {
       "scholar_id": "6af4681d-e3ef-4fd5-9981-83c2396d1fab",
       "name": "George Kushiator",
-      "email": "gkushiator1@gmail.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "KNUST",
       "cohortYear": 2011,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MFA",
       "host": "Jim Cogswell & Franc Nunoo-Quarcoo (Art & Design)"
     },
     {
       "scholar_id": "729459e1-d73c-4580-8028-6333a135d47e",
       "name": "Jackson Tamba",
-      "email": "jltamba@tubmanu.edu.lr",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U Liberia",
       "cohortYear": 2011,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Engineering",
       "host": "Herb Winful"
     },
     {
       "scholar_id": "e120ee33-0790-4fbd-a5b7-5e56246db0c1",
       "name": "Joseph Ballah",
-      "email": "davidlwiles@yahoo.com",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U Liberia",
       "cohortYear": 2011,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Engineering",
       "host": "Steve Wright, Civil & Env. Eng."
     },
     {
       "scholar_id": "3b3874a6-953a-4141-9ffd-2d4d1df53bfa",
       "name": "Morris Ken (Deceased)",
-      "email": "morrisken2007@yahoo.com",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U Liberia",
       "cohortYear": 2011,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Mphil, Curriculum Studies",
       "host": "Susan Neuman, School of Education"
     },
     {
       "scholar_id": "ae44e41d-4654-4128-a569-d84e65a489d4",
       "name": "Sakhumzi Mfecane",
-      "email": "smfecane@uwc.ac.za",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "UWC",
       "cohortYear": 2011,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (Wits, 2010), Social Anthropology",
       "host": "Rachel Snow (SPH/PSC)"
     },
     {
       "scholar_id": "853634f2-b28f-47f1-93f8-bd644ba0b4eb",
       "name": "Sipokazi Sambumbu (now: Madida)",
-      "email": "spokyngqa@gmail.com",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "UWC",
       "cohortYear": 2011,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA, Public & Visual History",
       "host": "Adam Ashforth (DAAS)"
     },
     {
       "scholar_id": "0c77b82b-f1a4-4fd8-beaf-57625ab10038",
       "name": "Yensuenyeagbe Fiagbe",
-      "email": "yakfiagbe.soe@knust.edu.gh",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "KNUST",
       "cohortYear": 2011,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (KNUST, 2010), Mechanical Engineering",
       "host": "Bram van Leer (Aerospace Engineering)"
     },
     {
       "scholar_id": "01263461-b327-4658-8c53-3d4d35f20370",
       "name": "Adam Rahman",
-      "email": "ad2gh@yahoo.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "KNUST",
       "cohortYear": 2010,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA, Art",
       "host": "Cary Engleberg, Internal Medicine"
     },
     {
       "scholar_id": "fbaa8285-5460-4b03-923e-74ad8ebd29da",
       "name": "David Kenkpen",
-      "email": "alpinjoyken@yahoo.com",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U Liberia",
       "cohortYear": 2010,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc, Biochemistry; MA, Education Admin",
       "host": "Robert Kennedy, Chemistry"
     },
     {
       "scholar_id": "4fdfd31e-f92c-47db-9285-dbeab894c3ef",
       "name": "Henry Ogoe",
-      "email": "atoogoe@gmail.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "old: UG new: U Pittsburgh",
       "cohortYear": 2010,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc, Computer Science",
       "host": "Albert Shih, Mech & Biomed Engin; Elijah Kannaty-Asibu, Mech Enging"
     },
     {
       "scholar_id": "56239083-86c3-4c94-a3ac-633ecf4b4c7e",
       "name": "Ingrid Lynch",
-      "email": "ingrid.sange@gmail.com; ilynch@hsrc.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "UP",
       "cohortYear": 2010,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA (UP, 2008), Psychology",
       "host": "Gayle Rubin, Anthropology, Comp Lit, Women\u2019s Studies"
     },
     {
       "scholar_id": "4b561287-ea35-4563-9f0e-2db3f15772b8",
       "name": "Janet Chisaka",
-      "email": "j.chisaka@ru.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "Rhodes",
       "cohortYear": 2010,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD candidate, Sociology",
       "host": "Phyllis Meadows, (HBHE SPH)"
     },
     {
       "scholar_id": "5796c71a-682e-47b4-b646-bd885ff4e739",
       "name": "Jonathan Ayitey",
-      "email": "jonathanzinzi@yahoo.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "KNUST",
       "cohortYear": 2010,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Mphil, Land Economy",
       "host": "Anne Pitcher, CAAS"
     },
     {
       "scholar_id": "b31a4498-cc4d-447f-89c0-62505c262464",
       "name": "Litheko Modisane",
-      "email": "litheko.modisane@uct.ac.za",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "UCT",
       "cohortYear": 2010,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (UCT, 2010), Public Intellectual Life, Lang and Lit",
       "host": "Robin Means Coleman, CAAS; Daniel Herwitz, Instit for the Humanities, History of Art"
     },
     {
       "scholar_id": "e9519f66-bb2e-4dd7-9872-5094f6bd3d71",
       "name": "Nongo Phiri",
-      "email": "cynthia.phiri@univen.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "Uni Venda",
       "cohortYear": 2010,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA, Mental Health-Community Development",
       "host": "Brian Perron, School of Social Work"
     },
     {
       "scholar_id": "107a1333-4043-47f8-92b7-c1065bed8799",
       "name": "Patrick Feglo",
-      "email": "pfeglo.sms@knust.edu.gh",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "KNUST",
       "cohortYear": 2010,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc, Clinical Microbiology",
       "host": "Wu Xi, SPH"
     },
     {
       "scholar_id": "2f6c1b3f-709d-4920-92cd-75a130d832c5",
       "name": "Ruth Mampane",
-      "email": "ruth.mapane@up.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "UP",
       "cohortYear": 2010,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (UP, 2010), Educational Psychology",
       "host": "Tabbye Chavous Sellers, Psychology, Education"
     },
     {
       "scholar_id": "3592155c-4338-4f64-894c-664b42c3cf1f",
       "name": "Sopelekae Maithufi",
-      "email": "spmaithufi54@gmail.com",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "UP",
       "cohortYear": 2010,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (Wits, 2009), African Literature",
       "host": "Frieda Ekotto, Romance Languages"
     },
     {
       "scholar_id": "47b18e00-686a-41b7-a1e7-dd22ca0c0546",
       "name": "Stephen Jubwe",
-      "email": "smosiojubwe27@ yahoo.com",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U Liberia",
       "cohortYear": 2010,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA, Sociology",
       "host": "Howard Stein, CAAS"
     },
     {
       "scholar_id": "da0f8ca6-0fa1-4839-9ed4-8b6944816b2c",
       "name": "Telteltee Sayndee",
-      "email": "sayndeetd@yahoo.com",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U of Liberia",
       "cohortYear": 2010,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc, Forest Industries",
       "host": "Alan Stam"
     },
     {
       "scholar_id": "ca95c489-2803-4718-806d-3c0badf35ba2",
       "name": "Albert Harris",
-      "email": "harrisao@ul.edu.lr",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U Liberia",
       "cohortYear": 2009,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Epidemiology",
       "host": "Mark Wilson"
     },
     {
       "scholar_id": "453596af-5ec1-4611-a809-cb0a6b21f3a5",
       "name": "Anthony Osei-Fosu",
-      "email": "ofaking1@gmail.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "KNUST",
       "cohortYear": 2009,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Economics",
       "host": "David Lam"
     },
     {
       "scholar_id": "16cf3ebe-b938-4420-a35d-3f5a0a06d340",
       "name": "Cecil Victor Madell",
-      "email": "madellc@cput.ac.za; cecil@mcaplan.co.za",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "UCT",
       "cohortYear": 2009,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Urban Planning",
       "host": "June Thomas"
     },
     {
       "scholar_id": "f9322ec2-7402-458f-93b8-411d6202064a",
       "name": "Edward Ebow Kwaansa-Ansah",
-      "email": "eekwaansaansah@yahoo.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "KNUST",
       "cohortYear": 2009,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Chemistry",
       "host": "Jerome Nriagu"
     },
     {
       "scholar_id": "9f700cb6-defa-4554-b01e-398ffadeed0f",
       "name": "Elizabeth Mathagka Botha (return visit)",
-      "email": "mathakga.botha@wits.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "WITS",
       "cohortYear": 2009,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Education",
       "host": "Percy Bates, Education"
     },
     {
       "scholar_id": "ff711748-6a60-4cb3-ab20-a67cfc39932a",
       "name": "Emmanuel Danquah",
-      "email": "ekadanquah@yahoo.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "KNUST",
       "cohortYear": 2009,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "School of Natural Resources and the Environment",
       "host": "Arun Agrawal"
     },
     {
       "scholar_id": "7027819c-2799-4cfb-acc1-e358010c3e73",
       "name": "Emmanuel Ramde",
-      "email": "eramde@yahoo.fr",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "KNUST",
       "cohortYear": 2009,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Engineering",
       "host": "Elijah Kannatey-Asibu"
     },
     {
       "scholar_id": "8d85cbab-7eb4-423a-bea6-740ec5c32972",
       "name": "Geegbae Geegbae",
-      "email": "gageegbae@yahoo.com",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U Liberia",
       "cohortYear": 2009,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Economics",
       "host": "David Lam"
     },
     {
       "scholar_id": "979e026c-f15e-4a8d-b753-01e238812f10",
       "name": "Gifty Gyamah Nyante",
-      "email": "ggnyante@chs.edu.gh",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "UG",
       "cohortYear": 2009,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Nursing, Rehab",
       "host": "Andrew Haig"
     },
     {
       "scholar_id": "9b6c4675-727f-4192-9b13-58554c0b8f48",
       "name": "Mark Bropleh",
-      "email": "mbrop@yahoo.com",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U Liberia",
       "cohortYear": 2009,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Engineering",
       "host": "Herbert Winful"
     },
     {
       "scholar_id": "a534faae-652b-4537-aedd-9c520ade96b8",
       "name": "Mawuli Gyakobo",
-      "email": "mawuli_gyakobo@yahoo.com; mawuligyakobo@gmail.com; mawuli.gyakobo@ucc.edu.gh",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "UG",
       "cohortYear": 2009,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MSc (KNUST, 2001), Health Services Planning and Management; MBChB (KNUST, 1996)",
       "host": "Rachel Snow"
     },
     {
       "scholar_id": "8dd8b2ce-0cf1-40c4-bfef-d9ed7c82bcc7",
       "name": "Morlee Mends-Cole",
-      "email": "colemm@ul.edu.lr",
       "country": "Liberia",
+      "gender": "Male",
       "institution": "U Liberia",
       "cohortYear": 2009,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Entomology",
       "host": "John Vandermeer"
     },
     {
       "scholar_id": "01846fad-269e-4f53-a555-fb5c2df59a47",
       "name": "Samuel Asare-Nkansah",
-      "email": "asn12002@yahoo.com",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "KNUST",
       "cohortYear": 2009,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Pharmacy",
       "host": "David Sherman"
     },
     {
       "scholar_id": "8f4e4106-7c39-4b1e-9a4d-ac8149ebb3fe",
       "name": "Tamsyn Bernath",
-      "email": "tamsynbernath@hotmail.com",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "WITS",
       "cohortYear": 2009,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Speech Pathology",
       "host": "Assorted Mentor Team (Andy Haig, Ned Kirsch,et al.)"
     },
     {
       "scholar_id": "3f04e9d8-180f-4995-b90b-c61583644187",
       "name": "William Narteh Gblerkpor",
-      "email": "wgblerkpor@gmail.com; wngblerkpor@ug.edu.gh",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "UG",
       "cohortYear": 2009,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Archaeology",
       "host": "Ray Silverman"
     },
     {
       "scholar_id": "e05591d8-ae33-4a7c-be4f-efdcfdbbdd38",
       "name": "Alexander Frempong",
-      "email": "kaadupong2002@yahoo.co.uk",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "UG",
       "cohortYear": 2008,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "M Phil (UG, 1999), Political science",
       "host": "Ken Kollman"
     },
     {
       "scholar_id": "9f6f93d0-4588-4bc8-ac07-4807b9a416bd",
       "name": "Alexius Amtaika (Deceased)",
-      "email": "amtaikaa@ufs.ac.za",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "UFS",
       "cohortYear": 2008,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (WITS, 2002), Political Science",
       "host": "Adam Ashforth"
     },
     {
       "scholar_id": "dbc63e84-3ae0-41a5-b502-b0662d709b1e",
       "name": "Annet Wanyana Oguttu",
-      "email": "annetoguttu@gmail.com; annet.oguttu@up.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "UNISA",
       "cohortYear": 2008,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD (UNISA, 2008), Tax Law",
       "host": "Reuven Avi-Yonah"
     },
     {
       "scholar_id": "e5844140-b608-4dd0-aa18-141758a81540",
       "name": "Carol Mitchell",
-      "email": "mitchellc@ukzn.ac.za",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "UKZN",
       "cohortYear": 2008,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "M. Soc.Sci, Psychology/ Education",
       "host": "Patricia King"
     },
     {
       "scholar_id": "b896214d-e855-4334-8612-c42a0d4346f9",
       "name": "Efua Vandyck",
-      "email": "evandyck@ug.edu.gh; efuav@yahoo.com",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "UG",
       "cohortYear": 2008,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "MA (UG, 2002), Occupational Health",
       "host": "Sioban Harlow"
     },
     {
       "scholar_id": "5c54df40-19e0-44c3-beed-fd53ce1dfb6d",
       "name": "Judith Stephens",
-      "email": "stephensjudith@yahoo.com; jstephens@ug.edu.gh",
       "country": "Ghana",
+      "gender": "Female",
       "institution": "UG",
       "cohortYear": 2008,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Public Health",
       "host": "Mark Wilson"
     },
     {
       "scholar_id": "a478788e-9da4-44fb-84b5-575db83480dc",
       "name": "Leah Ndanga",
-      "email": "leahzbndanga@yahoo.com; lndanga@wcupa.edu",
       "country": "South Africa",
+      "gender": "Female",
       "institution": "UP",
       "cohortYear": 2008,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Business and Marketing",
       "host": "Ravi Anupindi"
     },
     {
       "scholar_id": "525aec04-2701-41cb-876f-90d4b37a480f",
       "name": "Mahunele Thotse",
-      "email": "mahunelet@dac.gov.za, mahunele.thotse@ul.ac.za",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "UP",
       "cohortYear": 2008,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Heritage Studies",
       "host": "Ray Silverman"
     },
     {
       "scholar_id": "23fc8f1a-73bf-4823-9eb2-ac02b48a1b28",
       "name": "Moses Nii-Dortey",
-      "email": "mndortey@ug.edu.gh",
       "country": "Ghana",
+      "gender": "Male",
       "institution": "UG",
       "cohortYear": 2008,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "Heritage Studies/Music",
       "host": "Naomi Andre"
     },
     {
       "scholar_id": "61250c17-71a5-4292-8abf-e8fbe2c6d92e",
       "name": "Sekepe Matjila",
-      "email": "matjids@unisa.ac.za",
       "country": "South Africa",
+      "gender": "Male",
       "institution": "UNISA",
       "cohortYear": 2008,
-      "semester": null,
+      "semester": "Annual",
       "discipline": "PhD candidate, Heritage Studies/Literature",
       "host": "Keith Taylor"
     }

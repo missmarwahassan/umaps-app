@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UMAPS Insights</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="site-mark" href="./index.html">
+          <img class="site-logo site-logo-standard" src="./assets/lsa-asc-web.png" alt="LSA African Studies Center, University of Michigan" />
+        </a>
+        <nav class="site-nav">
+          <a href="./about.html">About UMAPS</a>
+          <a href="./index.html">Dashboard</a>
+          <a class="active" href="./insights.html">Insights</a>
+        </nav>
+      </header>
+
+      <section class="hero hero-insights">
+        <div class="hero-copy">
+          <p class="eyebrow">Geography + Survey</p>
+          <h1>Follow the network over time and surface survey patterns visually.</h1>
+          <p class="lede">
+            This page links an accumulating Africa map, ranked country bars, and coded survey
+            insight panels from the current alumni response export.
+          </p>
+        </div>
+        <div class="hero-panel">
+          <div class="hero-stat">
+            <span id="hero-impact-share">90.2%</span>
+            <small>gave the top score for professional development impact</small>
+          </div>
+          <div class="hero-stat">
+            <span id="hero-opportunity-share">93.2%</span>
+            <small>gave the top score for in-person regional meetups</small>
+          </div>
+        </div>
+      </section>
+
+      <main>
+        <section class="panel-card">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Executive Summary</p>
+              <h2>Main takeaways</h2>
+            </div>
+          </div>
+          <div class="summary-grid" id="executive-summary"></div>
+        </section>
+
+        <section class="panel-card">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Africa over time</p>
+              <h2>Accumulating representation by cohort year</h2>
+            </div>
+            <div class="slider-panel">
+              <label for="year-slider">Selected year</label>
+              <div class="slider-value-row">
+                <input id="year-slider" type="range" min="0" max="0" step="1" value="0" />
+                <strong id="selected-year">2008</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-layout">
+            <div class="map-card">
+              <svg id="africa-map" viewBox="0 0 760 520" role="img" aria-label="Africa country representation map"></svg>
+              <div id="map-tooltip" class="map-tooltip" hidden></div>
+            </div>
+            <div class="map-side">
+              <div class="mini-metrics" id="year-summary"></div>
+              <div class="panel-inset">
+                <h3>Top represented countries by selected year</h3>
+                <div id="timeline-country-bars" class="bar-list"></div>
+              </div>
+            </div>
+          </div>
+          <div class="panel-inset panel-inset-below-map">
+            <h3>Gender representation by selected year</h3>
+            <div id="gender-bars" class="bar-list"></div>
+          </div>
+        </section>
+
+        <section class="panel panel-two-up">
+          <article class="panel-card">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Survey impact</p>
+                <h2>How alumni rated the program’s influence</h2>
+              </div>
+            </div>
+            <div id="impact-cards" class="survey-card-grid"></div>
+          </article>
+
+          <article class="panel-card">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Future programming</p>
+                <h2>Where respondents show the strongest interest</h2>
+              </div>
+            </div>
+            <div id="opportunity-cards" class="survey-card-grid"></div>
+          </article>
+        </section>
+
+        <section class="panel-card panel-card-note">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Interpretation note</p>
+              <h2>How to read the survey insight cards</h2>
+            </div>
+          </div>
+          <p id="survey-note" class="note-text"></p>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Built by Marwa Hassan as a project for the African Studies Center during her Data Analyst internship.</p>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="./insights.js"></script>
+  </body>
+</html>
