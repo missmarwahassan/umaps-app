@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UMAPS Alumni Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=DM+Serif+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">UMAPS Alumni Network</p>
+          <h1>Tracing the reach of UMAPS across cohorts, countries, and institutions.</h1>
+          <p class="lede">
+            A live, browser-based dashboard built from the alumni database. Explore cohort growth,
+            geographic breadth, and individual scholar records in one public-facing page.
+          </p>
+        </div>
+        <div class="hero-aside">
+          <div class="hero-stat">
+            <span id="year-range">2008-2027</span>
+            <small>active cohort span</small>
+          </div>
+          <div class="hero-stat">
+            <span id="latest-cohort">22 scholars</span>
+            <small>in the latest cohort</small>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="metrics-grid" id="metrics-grid"></section>
+
+        <section class="panel two-up">
+          <article class="panel-card">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Timeline</p>
+                <h2>Cohort growth over time</h2>
+              </div>
+            </div>
+            <div class="chart-wrap">
+              <svg id="cohort-chart" viewBox="0 0 760 340" role="img" aria-label="Cohort timeline chart"></svg>
+            </div>
+          </article>
+
+          <article class="panel-card accent-card">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Snapshot</p>
+                <h2>Latest cohort geography</h2>
+              </div>
+            </div>
+            <div id="latest-cohort-countries" class="rank-list"></div>
+          </article>
+        </section>
+
+        <section class="panel three-up">
+          <article class="panel-card">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Reach</p>
+                <h2>Top countries of origin</h2>
+              </div>
+            </div>
+            <div id="top-countries" class="bar-list"></div>
+          </article>
+
+          <article class="panel-card">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Partners</p>
+                <h2>Leading institutions</h2>
+              </div>
+            </div>
+            <div id="top-institutions" class="bar-list"></div>
+          </article>
+
+          <article class="panel-card">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Mentorship</p>
+                <h2>Most frequent hosts</h2>
+              </div>
+            </div>
+            <div id="top-hosts" class="bar-list"></div>
+          </article>
+        </section>
+
+        <section class="panel directory-panel">
+          <div class="panel-heading directory-heading">
+            <div>
+              <p class="eyebrow">Directory</p>
+              <h2>Search the alumni records</h2>
+            </div>
+            <div class="filters">
+              <label>
+                <span>Search</span>
+                <input id="search-input" type="search" placeholder="Name, email, host, institution..." />
+              </label>
+              <label>
+                <span>Country</span>
+                <select id="country-filter">
+                  <option value="">All countries</option>
+                </select>
+              </label>
+              <label>
+                <span>Cohort</span>
+                <select id="year-filter">
+                  <option value="">All years</option>
+                </select>
+              </label>
+            </div>
+          </div>
+
+          <div class="table-meta">
+            <p id="results-count">Loading records...</p>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Cohort</th>
+                  <th>Country</th>
+                  <th>Institution</th>
+                  <th>Discipline</th>
+                  <th>Host</th>
+                </tr>
+              </thead>
+              <tbody id="directory-body"></tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
