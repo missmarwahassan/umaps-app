@@ -10,6 +10,20 @@ const state = {
 const formatNumber = (value) => new Intl.NumberFormat("en-US").format(value ?? 0);
 const cohortSortOrder = { Annual: 0, Winter: 1, Fall: 2 };
 
+function setElementText(id, value) {
+  const element = document.getElementById(id);
+  if (element) {
+    element.textContent = value;
+  }
+}
+
+function setElementHtml(id, value) {
+  const element = document.getElementById(id);
+  if (element) {
+    element.innerHTML = value;
+  }
+}
+
 function getCurrentCohortMeta(records) {
   const today = new Date();
   const month = today.getMonth();
@@ -89,18 +103,14 @@ function renderChrome() {
   const currentCohort = getCurrentCohortMeta(records);
   const incomingCohort = getIncomingCohortMeta(records, currentCohort);
 
-  document.getElementById("year-range").textContent = `${metrics.yearRange.start}-${metrics.yearRange.end}`;
-  document.getElementById("current-cohort").innerHTML = `Current Cohort:<br>${currentCohort.label}`;
-  document.getElementById("current-cohort-detail").textContent = `${formatNumber(
-    currentCohort.scholarCount
-  )} scholars`;
-  document.getElementById("current-cohort-label").textContent = currentCohort.label;
-  document.getElementById("current-cohort-count").textContent = `${formatNumber(
-    currentCohort.scholarCount
-  )} scholars`;
-  document.getElementById("latest-cohort-text").textContent = `${incomingCohort.label} · ${formatNumber(
-    incomingCohort.scholarCount
-  )} scholars`;
+  setElementText("year-range", `${metrics.yearRange.start}-${metrics.yearRange.end}`);
+  setElementHtml("current-cohort", `Current Cohort:<br>${currentCohort.label}`);
+  setElementText("current-cohort-detail", `${formatNumber(currentCohort.scholarCount)} scholars`);
+  setElementText("current-cohort-label", currentCohort.label);
+  setElementText("current-cohort-count", `${formatNumber(currentCohort.scholarCount)} scholars`);
+  const incomingText = `${incomingCohort.label} · ${formatNumber(incomingCohort.scholarCount)} scholars`;
+  setElementText("latest-cohort-text", incomingText);
+  setElementText("latest-cohort", incomingText);
 
   const metricCards = [
     ["Unique scholars", formatNumber(metrics.uniqueScholars)],
