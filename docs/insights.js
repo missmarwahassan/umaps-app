@@ -43,23 +43,11 @@ async function loadInsights() {
   africaState.years = [...new Set(africaState.data.series.geographyTimeline.map((item) => item.cohort_year))].sort((a, b) => a - b);
   africaState.selectedYear = africaState.years[0];
 
-  renderSurveyOverview();
   renderExecutiveSummary();
   renderSurveyCards();
   wireSlider();
   await loadAfricaGeo();
   renderGeography();
-}
-
-function renderSurveyOverview() {
-  const { impactQuestions, opportunityQuestions } = africaState.data.survey;
-  const leadImpact = impactQuestions[0];
-  const leadOpportunity =
-    opportunityQuestions.find((question) => question.label.toLowerCase().includes("in-person regional meetups")) ??
-    opportunityQuestions[0];
-
-  document.getElementById("hero-impact-share").textContent = `${leadImpact.topScoreShare ?? "—"}%`;
-  document.getElementById("hero-opportunity-share").textContent = `${leadOpportunity.topScoreShare ?? "—"}%`;
 }
 
 function renderExecutiveSummary() {

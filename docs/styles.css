@@ -443,6 +443,23 @@ a {
   font-size: 1.7rem;
 }
 
+.panel-heading-stack {
+  display: grid;
+  gap: 6px;
+}
+
+.panel-heading-primary h2 {
+  font-size: clamp(2rem, 3vw, 2.7rem);
+  line-height: 0.98;
+}
+
+.panel-subtitle {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
 .chart-wrap {
   padding: 12px;
   border-radius: 4px;
@@ -643,6 +660,58 @@ a {
   scroll-margin-top: 24px;
 }
 
+.publications-layout {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.publications-main {
+  display: grid;
+  gap: 18px;
+}
+
+.publications-filter-panel {
+  position: sticky;
+  top: 18px;
+}
+
+.publications-filter-panel .filters.publications-filters {
+  display: grid;
+  grid-template-columns: 1fr !important;
+  width: 100%;
+}
+
+.publications-filter-panel .panel-heading {
+  margin-bottom: 10px;
+}
+
+.publications-filter-panel .panel-heading .eyebrow {
+  margin-bottom: 0;
+}
+
+.publications-filter-panel .filters.publications-filters label {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: start;
+  width: 100%;
+}
+
+.publications-filter-panel .filters.publications-filters input,
+.publications-filter-panel .filters.publications-filters select {
+  width: 100%;
+  min-width: 0;
+}
+
+.publications-top-row {
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+}
+
+.publication-stage-panel .bar-list {
+  gap: 16px;
+}
+
 .directory-heading {
   align-items: end;
 }
@@ -826,6 +895,36 @@ thead th {
   letter-spacing: 0.08em;
 }
 
+.sort-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-transform: inherit;
+  letter-spacing: inherit;
+  cursor: pointer;
+}
+
+.sort-arrow {
+  width: 10px;
+  display: inline-flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.sort-button.is-active .sort-arrow::before {
+  content: "↑";
+}
+
+.sort-button.is-active[data-direction="desc"] .sort-arrow::before {
+  content: "↓";
+}
+
 tbody tr:nth-child(2n) {
   background: rgba(47, 101, 167, 0.03);
 }
@@ -970,6 +1069,20 @@ tbody tr:hover {
   }
 
   .filters-two {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 980px) {
+  .publications-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .publications-filter-panel {
+    position: static;
+  }
+
+  .publications-top-row {
     grid-template-columns: 1fr;
   }
 }

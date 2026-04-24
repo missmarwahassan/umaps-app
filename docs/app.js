@@ -5,6 +5,10 @@ const state = {
     country: "",
     year: "",
   },
+  sort: {
+    key: "cohortYear",
+    direction: "desc",
+  },
 };
 
 const formatNumber = (value) => new Intl.NumberFormat("en-US").format(value ?? 0);
@@ -158,6 +162,34 @@ function wireEvents() {
     state.filters.year = event.target.value;
     renderDirectory();
   });
+
+  document.querySelectorAll("[data-directory-sort]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const key = button.dataset.directorySort;
+      if (state.sort.key === key) {
+        state.sort.direction = state.sort.direction === "asc" ? "desc" : "asc";
+      } else {
+        state.sort.key = key;
+        state.sort.direction = key === "cohortYear" ? "desc" : "asc";
+      }
+      renderDirectory();
+    });
+  });
+}
+
+function compareDirectoryValues(a, b, key) {
+  if (key === "cohortYear") {
+    return (Number(a.cohortYear) || 0) - (Number(b.cohortYear) || 0);
+  }
+  return String(a[key] ?? "").localeCompare(String(b[key] ?? ""), undefined, { sensitivity: "base" });
+}
+
+function updateDirectorySortUi() {
+  document.querySelectorAll("[data-directory-sort]").forEach((button) => {
+    const isActive = button.dataset.directorySort === state.sort.key;
+    button.classList.toggle("is-active", isActive);
+    button.dataset.direction = isActive ? state.sort.direction : "";
+  });
 }
 
 function renderAll() {
@@ -269,8 +301,12 @@ function getFilteredRecords() {
 }
 
 function renderDirectory() {
-  const rows = getFilteredRecords();
+  const rows = [...getFilteredRecords()].sort((a, b) => {
+    const result = compareDirectoryValues(a, b, state.sort.key);
+    return state.sort.direction === "asc" ? result : -result;
+  });
   document.getElementById("results-count").textContent = `${formatNumber(rows.length)} matching records`;
+  updateDirectorySortUi();
 
   const body = document.getElementById("directory-body");
   if (!rows.length) {

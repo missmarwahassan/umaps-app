@@ -8,6 +8,10 @@ const engagementState = {
     country: "",
   },
   selectedProjectNo: "",
+  sort: {
+    key: "projectTitle",
+    direction: "asc",
+  },
 };
 
 const AFRICA_COUNTRIES = new Set([
@@ -111,6 +115,31 @@ function wireEvents() {
   document.getElementById("engagement-country").addEventListener("change", (event) => {
     engagementState.filters.country = event.target.value;
     renderAll();
+  });
+
+  document.querySelectorAll("[data-engagement-sort]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const key = button.dataset.engagementSort;
+      if (engagementState.sort.key === key) {
+        engagementState.sort.direction = engagementState.sort.direction === "asc" ? "desc" : "asc";
+      } else {
+        engagementState.sort.key = key;
+        engagementState.sort.direction = "asc";
+      }
+      renderDirectory(getFilteredRecords());
+    });
+  });
+}
+
+function compareEngagementValues(a, b, key) {
+  return String(a[key] ?? "").localeCompare(String(b[key] ?? ""), undefined, { sensitivity: "base" });
+}
+
+function updateEngagementSortUi() {
+  document.querySelectorAll("[data-engagement-sort]").forEach((button) => {
+    const isActive = button.dataset.engagementSort === engagementState.sort.key;
+    button.classList.toggle("is-active", isActive);
+    button.dataset.direction = isActive ? engagementState.sort.direction : "";
   });
 }
 
@@ -428,13 +457,18 @@ function renderMap(records) {
 function renderDirectory(records) {
   const body = document.getElementById("engagement-directory-body");
   document.getElementById("engagement-results-count").textContent = `${formatNumber(records.length)} matching projects`;
+  updateEngagementSortUi();
 
   if (!records.length) {
     body.innerHTML = `<tr><td class="empty-state" colspan="7">No projects match the current filters.</td></tr>`;
     return;
   }
 
-  body.innerHTML = records
+  body.innerHTML = [...records]
+    .sort((a, b) => {
+      const result = compareEngagementValues(a, b, engagementState.sort.key);
+      return engagementState.sort.direction === "asc" ? result : -result;
+    })
     .slice(0, 200)
     .map((record) => {
       const meta = getTypeMeta(record.projectType);

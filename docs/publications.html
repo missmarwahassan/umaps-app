@@ -47,108 +47,111 @@
       </section>
 
       <main>
-        <section class="panel-card">
-          <div class="panel-heading">
-            <div>
-              <p class="eyebrow">Filters</p>
-              <h2>Explore publications by scholar, cohort, country, and type</h2>
-            </div>
-          </div>
-          <div class="filters filters-four">
-            <label>
-              <span>Search</span>
-              <input id="publication-search" type="search" placeholder="Scholar name, title, citation, institution..." />
-            </label>
-            <label>
-              <span>Publication type</span>
-              <select id="publication-type">
-                <option value="">All publication types</option>
-              </select>
-            </label>
-            <label>
-              <span>Publication stage</span>
-              <select id="publication-stage">
-                <option value="">All stages</option>
-              </select>
-            </label>
-            <label>
-              <span>Cohort year</span>
-              <select id="publication-cohort">
-                <option value="">All cohorts</option>
-              </select>
-            </label>
-            <label>
-              <span>Country</span>
-              <select id="publication-country">
-                <option value="">All countries</option>
-              </select>
-            </label>
-          </div>
-        </section>
-
-        <section class="panel-card">
-          <div class="panel-heading">
-            <div>
-              <p class="eyebrow">Publication Overview</p>
-              <h2>What the current publication data shows</h2>
-            </div>
-          </div>
-          <p id="publications-note" class="note-text network-note"></p>
-          <div class="mini-metrics" id="publication-summary"></div>
-        </section>
-
-        <section class="panel panel-two-up">
-          <article class="panel-card">
+        <section class="publications-layout">
+          <aside class="panel-card publications-filter-panel">
             <div class="panel-heading">
               <div>
-                <p class="eyebrow">Format</p>
-                <h2>Publication types in view</h2>
+                <p class="eyebrow">Filters</p>
               </div>
             </div>
-            <div id="publication-type-bars" class="bar-list"></div>
-          </article>
+            <div class="filters publications-filters">
+              <label>
+                <span>Search</span>
+                <input id="publication-search" type="search" placeholder="Scholar name, title, citation, institution..." />
+              </label>
+              <label>
+                <span>Publication type</span>
+                <select id="publication-type">
+                  <option value="">All publication types</option>
+                </select>
+              </label>
+              <label>
+                <span>Publication stage</span>
+                <select id="publication-stage">
+                  <option value="">All stages</option>
+                </select>
+              </label>
+              <label>
+                <span>Cohort year</span>
+                <select id="publication-cohort">
+                  <option value="">All cohorts</option>
+                </select>
+              </label>
+              <label>
+                <span>Country</span>
+                <select id="publication-country">
+                  <option value="">All countries</option>
+                </select>
+              </label>
+            </div>
+          </aside>
 
-          <article class="panel-card">
-            <div class="panel-heading">
-              <div>
-                <p class="eyebrow">Stage</p>
-                <h2>How the records are distributed across time</h2>
+          <div class="publications-main">
+            <section class="panel publications-top-row">
+              <article class="panel-card">
+                <div class="panel-heading">
+                  <div>
+                    <p class="eyebrow">Format</p>
+                    <h2>Publication types in view</h2>
+                  </div>
+                </div>
+                <div id="publication-type-bars" class="bar-list"></div>
+              </article>
+
+              <article class="panel-card publication-stage-panel">
+                <div class="panel-heading">
+                  <div>
+                    <p class="eyebrow">Stage</p>
+                    <h2>How the records are distributed across time</h2>
+                  </div>
+                </div>
+                <div id="publication-stage-bars" class="bar-list"></div>
+              </article>
+            </section>
+
+            <section class="panel panel-two-up">
+              <article class="panel-card">
+                <div class="panel-heading">
+                  <div>
+                    <p class="eyebrow">Timeline</p>
+                    <h2>Most recent publication years in view</h2>
+                  </div>
+                </div>
+                <div id="publication-year-bars" class="bar-list"></div>
+              </article>
+
+              <article class="panel-card">
+                <div class="panel-heading">
+                  <div>
+                    <p class="eyebrow">Authors</p>
+                    <h2>Most prolific alumni in the current view</h2>
+                  </div>
+                </div>
+                <div id="publication-scholar-bars" class="bar-list"></div>
+              </article>
+            </section>
+
+            <section class="panel-card">
+              <div class="panel-heading">
+                <div>
+                  <p class="eyebrow">Selected Record</p>
+                  <h2>Click a scholar or publication for more detail</h2>
+                </div>
               </div>
-            </div>
-            <div id="publication-stage-bars" class="bar-list"></div>
-          </article>
-        </section>
+              <div id="publication-detail" class="panel-inset project-detail-card" hidden></div>
+            </section>
 
-        <section class="panel panel-two-up">
-          <article class="panel-card">
-            <div class="panel-heading">
-              <div>
-                <p class="eyebrow">Timeline</p>
-                <h2>Most recent publication years in view</h2>
+            <section class="panel-card">
+              <div class="panel-heading">
+                <div>
+                  <p class="eyebrow">Publication Overview</p>
+                  <h2>What the current publication data shows</h2>
+                </div>
               </div>
-            </div>
-            <div id="publication-year-bars" class="bar-list"></div>
-          </article>
-
-          <article class="panel-card">
-            <div class="panel-heading">
-              <div>
-                <p class="eyebrow">Authors</p>
-                <h2>Most prolific alumni in the current view</h2>
-              </div>
-            </div>
-            <div id="publication-scholar-bars" class="bar-list"></div>
-          </article>
-        </section>
-
-        <section class="panel-card">
-          <div class="panel-heading">
-            <div>
-              <p class="eyebrow">Selected Record</p>
-              <h2>Click a scholar or publication for more detail</h2>
-            </div>
+              <p id="publications-note" class="note-text network-note"></p>
+              <div class="mini-metrics" id="publication-summary"></div>
+            </section>
           </div>
-          <div id="publication-detail" class="panel-inset project-detail-card" hidden></div>
         </section>
 
         <section class="panel-card directory-panel">
@@ -167,12 +170,12 @@
             <table>
               <thead>
                 <tr>
-                  <th>Publication</th>
-                  <th>Scholar(s)</th>
-                  <th>Type</th>
-                  <th>Stage</th>
-                  <th>Year</th>
-                  <th>Country</th>
+                  <th><button class="sort-button" type="button" data-publication-sort="title">Publication<span class="sort-arrow" aria-hidden="true"></span></button></th>
+                  <th><button class="sort-button" type="button" data-publication-sort="scholarNames">Scholar(s)<span class="sort-arrow" aria-hidden="true"></span></button></th>
+                  <th><button class="sort-button" type="button" data-publication-sort="publicationType">Type<span class="sort-arrow" aria-hidden="true"></span></button></th>
+                  <th><button class="sort-button" type="button" data-publication-sort="stage">Stage<span class="sort-arrow" aria-hidden="true"></span></button></th>
+                  <th><button class="sort-button" type="button" data-publication-sort="year">Year<span class="sort-arrow" aria-hidden="true"></span></button></th>
+                  <th><button class="sort-button" type="button" data-publication-sort="countries">Country<span class="sort-arrow" aria-hidden="true"></span></button></th>
                 </tr>
               </thead>
               <tbody id="publication-directory-body"></tbody>

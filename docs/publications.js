@@ -9,6 +9,10 @@ const publicationState = {
     country: "",
   },
   selected: null,
+  sort: {
+    key: "year",
+    direction: "desc",
+  },
 };
 
 const formatNumber = (value) => new Intl.NumberFormat("en-US").format(value ?? 0);
@@ -141,6 +145,44 @@ function wireEvents() {
   document.getElementById("publication-country").addEventListener("change", (event) => {
     publicationState.filters.country = event.target.value;
     renderAll();
+  });
+
+  document.querySelectorAll("[data-publication-sort]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const key = button.dataset.publicationSort;
+      if (publicationState.sort.key === key) {
+        publicationState.sort.direction = publicationState.sort.direction === "asc" ? "desc" : "asc";
+      } else {
+        publicationState.sort.key = key;
+        publicationState.sort.direction = key === "year" ? "desc" : "asc";
+      }
+      renderDirectory(getFilteredPublications());
+    });
+  });
+}
+
+function publicationSortValue(publication, key) {
+  if (key === "year") return normalizedYear(publication.year) ?? -Infinity;
+  if (key === "scholarNames") return (publication.scholarNames ?? []).join(", ");
+  if (key === "countries") return (publication.countries ?? []).join(", ");
+  if (key === "title") return publication.title || publication.citation || "";
+  return publication[key] ?? "";
+}
+
+function comparePublicationValues(a, b, key) {
+  const aValue = publicationSortValue(a, key);
+  const bValue = publicationSortValue(b, key);
+  if (typeof aValue === "number" && typeof bValue === "number") {
+    return aValue - bValue;
+  }
+  return String(aValue).localeCompare(String(bValue), undefined, { sensitivity: "base" });
+}
+
+function updatePublicationSortUi() {
+  document.querySelectorAll("[data-publication-sort]").forEach((button) => {
+    const isActive = button.dataset.publicationSort === publicationState.sort.key;
+    button.classList.toggle("is-active", isActive);
+    button.dataset.direction = isActive ? publicationState.sort.direction : "";
   });
 }
 
@@ -493,6 +535,7 @@ function renderDirectory(publications) {
   const results = document.getElementById("publication-results-count");
 
   results.textContent = `${formatNumber(publications.length)} publication records in the current view`;
+  updatePublicationSortUi();
 
   if (!publications.length) {
     body.innerHTML = `
@@ -504,8 +547,10 @@ function renderDirectory(publications) {
   }
 
   const sorted = [...publications].sort((a, b) => {
-    const yearDiff = (normalizedYear(b.year) ?? 0) - (normalizedYear(a.year) ?? 0);
-    if (yearDiff !== 0) return yearDiff;
+    const result = comparePublicationValues(a, b, publicationState.sort.key);
+    if (result !== 0) {
+      return publicationState.sort.direction === "asc" ? result : -result;
+    }
     return String(a.title || a.citation || "").localeCompare(String(b.title || b.citation || ""));
   });
 
