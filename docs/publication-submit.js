@@ -34,7 +34,7 @@ function updateSubmissionConfigState() {
   const hasEndpoint = Boolean(submissionConfig.endpoint && !String(submissionConfig.endpoint).includes("PASTE"));
 
   if (hasEndpoint) {
-    note.textContent = "This form is connected to your private review spreadsheet. Submissions are sent there for your review before any site update happens.";
+    note.textContent = "This form is connected to your private review spreadsheet.";
     button.disabled = false;
     return;
   }

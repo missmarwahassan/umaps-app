@@ -52,7 +52,7 @@ async function loadInsights() {
 }
 
 function renderSurveyOverview() {
-  const { note, impactQuestions, opportunityQuestions } = africaState.data.survey;
+  const { impactQuestions, opportunityQuestions } = africaState.data.survey;
   const leadImpact = impactQuestions[0];
   const leadOpportunity =
     opportunityQuestions.find((question) => question.label.toLowerCase().includes("in-person regional meetups")) ??
@@ -60,7 +60,6 @@ function renderSurveyOverview() {
 
   document.getElementById("hero-impact-share").textContent = `${leadImpact.topScoreShare ?? "—"}%`;
   document.getElementById("hero-opportunity-share").textContent = `${leadOpportunity.topScoreShare ?? "—"}%`;
-  document.getElementById("survey-note").textContent = note;
 }
 
 function renderExecutiveSummary() {
@@ -132,7 +131,7 @@ function renderQuestionCards(targetId, questions) {
         <article class="survey-card">
           <h3>${cleanQuestionLabel(question.label)}</h3>
           <strong>${question.average ?? "—"} / ${question.maxScore ?? "—"}</strong>
-          <p>${question.topScoreShare ?? "—"}% of respondents selected ${question.maxScore ?? "—"}, the highest available score.</p>
+          <p>${question.topScoreShare ?? "—"}% of respondents selected ${question.maxScore ?? "—"}.</p>
         </article>
       `
     )
