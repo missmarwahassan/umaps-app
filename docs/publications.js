@@ -56,12 +56,7 @@ function toHaystack(publication) {
 }
 
 async function loadPublications() {
-  const response = await fetch("./data/publications.json");
-  if (!response.ok) {
-    throw new Error("Could not load publication data.");
-  }
-
-  const data = await response.json();
+  const data = window.UMAPS_PUBLICATIONS_DATA ?? (await loadPublicationJson());
   const publications = Array.isArray(data.publications) ? data.publications : [];
   const scholars = Array.isArray(data.scholars) ? data.scholars : [];
 
@@ -78,6 +73,14 @@ async function loadPublications() {
   populateFilters();
   wireEvents();
   renderAll();
+}
+
+async function loadPublicationJson() {
+  const response = await fetch("./data/publications.json");
+  if (!response.ok) {
+    throw new Error("Could not load publication data.");
+  }
+  return response.json();
 }
 
 function renderHeroMetrics() {
