@@ -147,6 +147,44 @@ a {
   font-size: 0.92rem;
 }
 
+.footer-credit {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(255, 255, 255, 0.94);
+  text-decoration: none;
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.footer-credit:hover,
+.footer-credit:focus-visible {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+.footer-credit img {
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.footer-credit-copy {
+  display: grid;
+  gap: 2px;
+}
+
+.footer-credit-copy strong {
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.footer-credit-copy span {
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 0.8rem;
+}
+
 .site-mark {
   display: inline-flex;
   align-items: center;
