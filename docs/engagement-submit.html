@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit a U-M Africa Engagement Update</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="site-mark" href="./index.html">
+          <img class="site-logo site-logo-standard" src="./assets/lsa-asc-web.png" alt="LSA African Studies Center, University of Michigan" />
+        </a>
+        <nav class="site-nav">
+          <a href="./index.html">Dashboard</a>
+          <a href="./insights.html">Insights</a>
+          <a href="./publications.html">Publications</a>
+          <a href="./engagement.html">Engagement</a>
+        </nav>
+      </header>
+
+      <section class="hero hero-insights">
+        <div class="hero-copy">
+          <p class="eyebrow">Engagement Submission</p>
+          <h1>Submit an engagement update.</h1>
+          <div class="hero-actions">
+            <a class="button button-secondary" href="./engagement.html">Back to engagement</a>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="hero-stat">
+            <span>Private intake</span>
+            <small>Submissions go to a private spreadsheet for review.</small>
+          </div>
+          <div class="hero-stat">
+            <span>One form</span>
+            <small>Collect project details, collaborators, funding, and the item link in one place.</small>
+          </div>
+        </div>
+      </section>
+
+      <main>
+        <section class="panel-card panel-card-note">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">How it works</p>
+              <h2>All submissions are reviewed before publication</h2>
+            </div>
+          </div>
+          <div class="prose-block">
+            <p id="engagement-submission-config-note">
+              The review destination is still being connected. Once the private spreadsheet endpoint is configured,
+              this form will submit directly into your review queue.
+            </p>
+          </div>
+        </section>
+
+        <section class="panel-card">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Submission form</p>
+              <h2>Share a project, collaboration, or correction</h2>
+            </div>
+          </div>
+
+          <form id="engagement-submission-form" class="submission-form">
+            <div class="filters filters-two">
+              <label>
+                <span>Your name</span>
+                <input name="submitter_name" type="text" required placeholder="Name of person submitting" />
+              </label>
+              <label>
+                <span>Your email</span>
+                <input name="submitter_email" type="email" required placeholder="name@example.com" />
+              </label>
+              <label>
+                <span>Existing project number</span>
+                <input name="project_no" list="engagement-project-number-options" type="text" placeholder="Optional if updating an existing record" />
+                <datalist id="engagement-project-number-options"></datalist>
+              </label>
+              <label>
+                <span>Project title</span>
+                <input name="project_title" list="engagement-project-title-options" type="text" required placeholder="Full title of the project or collaboration" />
+                <datalist id="engagement-project-title-options"></datalist>
+              </label>
+              <label>
+                <span>Principal investigator</span>
+                <input name="pi_name" list="engagement-pi-options" type="text" required placeholder="Lead U-M faculty or project owner" />
+                <datalist id="engagement-pi-options"></datalist>
+              </label>
+              <label>
+                <span>Career stage</span>
+                <input name="career" list="engagement-career-options" type="text" placeholder="Faculty, staff, student, alumnus..." />
+                <datalist id="engagement-career-options"></datalist>
+              </label>
+              <label>
+                <span>Project type</span>
+                <select name="project_type" required>
+                  <option value="">Select one</option>
+                  <option>Research</option>
+                  <option>Capacity Building</option>
+                  <option>Teaching</option>
+                  <option>Research Capacity Program</option>
+                  <option>Other</option>
+                </select>
+              </label>
+              <label>
+                <span>U-M college affiliation</span>
+                <input name="college" list="engagement-college-options" type="text" placeholder="College or unit" />
+                <datalist id="engagement-college-options"></datalist>
+              </label>
+              <label>
+                <span>Country</span>
+                <input name="country" list="engagement-country-options" type="text" required placeholder="Primary country or regional scope" />
+                <datalist id="engagement-country-options"></datalist>
+              </label>
+              <label>
+                <span>City</span>
+                <input name="city" type="text" placeholder="City if applicable" />
+              </label>
+              <label class="form-span-two">
+                <span>Collaborators</span>
+                <textarea name="collaborators" rows="3" placeholder="Partner institutions, collaborators, or contacts"></textarea>
+              </label>
+              <label class="form-span-two">
+                <span>Project description</span>
+                <textarea name="project_description" rows="5" required placeholder="Describe the project, collaboration, or engagement activity"></textarea>
+              </label>
+              <label>
+                <span>Funding source</span>
+                <input name="funding_source" type="text" placeholder="Grant, program, or sponsor" />
+              </label>
+              <label>
+                <span>Funding duration</span>
+                <input name="funding_duration" type="text" placeholder="Project timeline or funding window" />
+              </label>
+              <label>
+                <span>Project website or reference link</span>
+                <input name="item_link" type="url" required placeholder="https://..." />
+              </label>
+              <label>
+                <span>Submission type</span>
+                <select name="submission_kind" required>
+                  <option value="">Select one</option>
+                  <option>New project</option>
+                  <option>Correction to existing record</option>
+                  <option>Update to existing project</option>
+                </select>
+              </label>
+              <label class="form-span-two">
+                <span>Notes for review</span>
+                <textarea name="review_notes" rows="4" placeholder="Anything the reviewer should know, including what changed"></textarea>
+              </label>
+            </div>
+
+            <label class="checkbox-row">
+              <input name="confirm_review" type="checkbox" required />
+              <span>I understand this submission will be reviewed privately and will not appear on the site automatically.</span>
+            </label>
+
+            <div class="form-actions">
+              <button id="engagement-submit-button" class="button button-primary" type="submit">Submit for review</button>
+              <p id="engagement-submission-status" class="note-text"></p>
+            </div>
+          </form>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-shell">
+          <div class="footer-brand">
+            <img src="./assets/lsa-asc-web-rev.png" alt="LSA African Studies Center, University of Michigan" />
+            <p>Built by Marwa Hassan as a project for the African Studies Center during her Data Analyst internship.</p>
+          </div>
+          <div class="footer-grid">
+            <section class="footer-column">
+              <h3>Visit</h3>
+              <p>500 Church Street<br />Suite 500<br />Ann Arbor, MI 48109</p>
+            </section>
+            <section class="footer-column">
+              <h3>Contact</h3>
+              <a href="tel:+17346153027">734.615.3027</a>
+              <a href="tel:+17347634765">734.763.4765</a>
+              <a href="https://ii.umich.edu/asc" target="_blank" rel="noreferrer">ii.umich.edu/asc</a>
+            </section>
+            <section class="footer-column">
+              <h3>Follow ASC</h3>
+              <div class="footer-socials">
+                <a class="footer-social" href="https://www.facebook.com/UMAfricanStudies" target="_blank" rel="noreferrer">Facebook</a>
+                <a class="footer-social" href="https://twitter.com/UofMAfrica" target="_blank" rel="noreferrer">X</a>
+                <a class="footer-social" href="https://www.instagram.com/iiumich/" target="_blank" rel="noreferrer">Instagram</a>
+                <a class="footer-social" href="https://www.linkedin.com/showcase/umichasc" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a class="footer-social" href="https://www.youtube.com/user/umichASC/" target="_blank" rel="noreferrer">YouTube</a>
+              </div>
+            </section>
+          </div>
+          <div class="footer-bottom">
+            <span>A member of the International Institute</span>
+            <a class="footer-credit" href="https://github.com/missmarwahassan" target="_blank" rel="noreferrer">
+              <img src="https://github.com/missmarwahassan.png?size=80" alt="GitHub profile photo for Marwa Hassan" />
+              <span class="footer-credit-copy">
+                <strong>@missmarwahassan</strong>
+                <span>missmarwahassan</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./data/engagement-submission-config.js"></script>
+    <script src="./engagement-submit.js"></script>
+  </body>
+</html>
