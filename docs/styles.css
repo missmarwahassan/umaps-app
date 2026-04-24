@@ -549,6 +549,56 @@ a {
   background: var(--um-blue);
 }
 
+.vertical-country-bars {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 12px;
+  align-items: end;
+  min-height: 240px;
+}
+
+.vertical-country-bar {
+  display: grid;
+  gap: 10px;
+  align-items: end;
+  justify-items: center;
+  min-width: 0;
+}
+
+.vertical-country-value {
+  color: var(--um-blue);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.vertical-country-track {
+  width: 100%;
+  max-width: 52px;
+  height: 170px;
+  display: flex;
+  align-items: end;
+  border-radius: 16px 16px 10px 10px;
+  background: rgba(0, 39, 76, 0.08);
+  overflow: hidden;
+}
+
+.vertical-country-fill {
+  width: 100%;
+  min-height: 10px;
+  border-radius: 16px 16px 10px 10px;
+  background: var(--um-blue);
+}
+
+.vertical-country-label {
+  width: 100%;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
 .directory-panel {
   scroll-margin-top: 24px;
 }
@@ -824,6 +874,10 @@ tbody tr:hover {
     position: static;
     margin-bottom: 14px;
     pointer-events: auto;
+  }
+
+  .vertical-country-bars {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 

@@ -130,10 +130,9 @@ function renderQuestionCards(targetId, questions) {
     .map(
       (question) => `
         <article class="survey-card">
-          <h3>${question.label}</h3>
-          <p>${numberFormat(question.count)} responses analyzed</p>
+          <h3>${cleanQuestionLabel(question.label)}</h3>
           <strong>${question.average ?? "—"} / ${question.maxScore ?? "—"}</strong>
-          <p>${question.topScoreShare ?? "—"}% of respondents selected the highest observed score in the export.</p>
+          <p>${question.topScoreShare ?? "—"}% of respondents selected ${question.maxScore ?? "—"}, the highest available score.</p>
         </article>
       `
     )
@@ -143,6 +142,13 @@ function renderQuestionCards(targetId, questions) {
 function shortenLabel(label) {
   const parts = label.split(" - ");
   return parts[parts.length - 1].replace(/^Would you be interested in the following future opportunities\? \(e\.g\., virtual workshops, mentorship\)\s*/i, "");
+}
+
+function cleanQuestionLabel(label) {
+  return String(label ?? "")
+    .replace(/^Impact and Benefits of the UMAPS Program\s*-\s*/i, "")
+    .replace(/^Would you be interested in the following future opportunities\?\s*(\(e\.g\., virtual workshops, mentorship\))?\s*/i, "")
+    .trim();
 }
 
 function wireSlider() {
@@ -261,23 +267,32 @@ function renderYearSummary(counts) {
 }
 
 function renderTimelineBars(counts) {
-  const entries = [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 3);
+  const container = document.getElementById("timeline-country-bars");
+  const entries = [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6);
+
+  if (!entries.length) {
+    container.innerHTML = `<div class="empty-state">No countries represented yet for the selected year.</div>`;
+    return;
+  }
+
   const max = Math.max(...entries.map(([, count]) => count), 1);
-  document.getElementById("timeline-country-bars").innerHTML = entries
-    .map(
-      ([country, count]) => `
-        <div class="bar-row">
-          <div class="bar-meta">
-            <span class="bar-label">${country}</span>
-            <span class="bar-value">${numberFormat(count)}</span>
-          </div>
-          <div class="bar-track">
-            <div class="bar-fill" style="width: ${(count / max) * 100}%"></div>
-          </div>
-        </div>
-      `
-    )
-    .join("");
+  container.innerHTML = `
+    <div class="vertical-country-bars">
+      ${entries
+        .map(
+          ([country, count]) => `
+            <div class="vertical-country-bar">
+              <span class="vertical-country-value">${numberFormat(count)}</span>
+              <div class="vertical-country-track">
+                <div class="vertical-country-fill" style="height: ${(count / max) * 100}%"></div>
+              </div>
+              <span class="vertical-country-label">${country}</span>
+            </div>
+          `
+        )
+        .join("")}
+    </div>
+  `;
 }
 
 function renderMap(counts) {
@@ -309,7 +324,9 @@ function renderMap(counts) {
   });
 
   const maxCount = d3.max(mapEntries, (item) => item.count) || 1;
-  const color = d3.scaleLinear().domain([0, maxCount]).range(["#dbe6f2", "#00274c"]);
+  const nonZeroCounts = mapEntries.map((item) => item.count).filter((count) => count > 0);
+  const minNonZeroCount = nonZeroCounts.length ? d3.min(nonZeroCounts) : 1;
+  const color = d3.scaleSqrt().domain([minNonZeroCount, maxCount]).range(["#9fb9d9", "#00274c"]);
 
   svg
     .append("g")
@@ -317,7 +334,12 @@ function renderMap(counts) {
     .data(mapEntries)
     .join("path")
     .attr("d", (item) => path(item.feature))
-    .attr("fill", (item) => color(item.count))
+    .attr("fill", (item) => {
+      if (item.count <= 0) {
+        return "#edf3f8";
+      }
+      return color(item.count);
+    })
     .attr("stroke", "#ffffff")
     .attr("stroke-width", 1.2)
     .on("mousemove", (event, item) => {
@@ -340,11 +362,11 @@ function renderMap(counts) {
   const gradientId = "map-gradient";
   const defs = svg.append("defs");
   const gradient = defs.append("linearGradient").attr("id", gradientId);
-  gradient.append("stop").attr("offset", "0%").attr("stop-color", "#dbe6f2");
+  gradient.append("stop").attr("offset", "0%").attr("stop-color", "#9fb9d9");
   gradient.append("stop").attr("offset", "100%").attr("stop-color", "#00274c");
   legend.append("rect").attr("width", 180).attr("height", 14).attr("rx", 7).attr("fill", `url(#${gradientId})`);
   legend.append("text").attr("x", 0).attr("y", -8).attr("fill", "#4f6074").attr("font-size", 12).text("Cumulative scholar count");
-  legend.append("text").attr("x", 0).attr("y", 34).attr("fill", "#4f6074").attr("font-size", 12).text("0");
+  legend.append("text").attr("x", 0).attr("y", 34).attr("fill", "#4f6074").attr("font-size", 12).text(numberFormat(minNonZeroCount));
   legend.append("text").attr("x", 180).attr("y", 34).attr("text-anchor", "end").attr("fill", "#4f6074").attr("font-size", 12).text(numberFormat(maxCount));
 }
 
