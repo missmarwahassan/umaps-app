@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UMAPS Publications</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="site-mark" href="./index.html">
+          <img class="site-logo site-logo-standard" src="./assets/lsa-asc-web.png" alt="LSA African Studies Center, University of Michigan" />
+        </a>
+        <nav class="site-nav">
+          <a href="./index.html">Dashboard</a>
+          <a href="./insights.html">Insights</a>
+          <a class="active" href="./publications.html">Publications</a>
+          <a href="./engagement.html">Engagement</a>
+        </nav>
+      </header>
+
+      <section class="hero hero-insights">
+        <div class="hero-copy">
+          <p class="eyebrow">Scholarship + Output</p>
+          <h1>Explore the publication record captured across UMAPS alumni.</h1>
+          <p class="lede">
+            This page uses the publication information already recorded in the alumni workbook to show who is publishing,
+            what kinds of work are represented, and where that output is concentrated across cohorts and countries.
+          </p>
+        </div>
+        <div class="hero-panel">
+          <div class="hero-stat">
+            <span id="publications-total-records">0</span>
+            <small>parsed publication records currently captured from the alumni workbook</small>
+          </div>
+          <div class="hero-stat">
+            <span id="publications-total-scholars">0</span>
+            <small>UMAPS alumni with publication data currently reflected in the network</small>
+          </div>
+        </div>
+      </section>
+
+      <main>
+        <section class="panel-card">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Filters</p>
+              <h2>Explore publications by scholar, cohort, country, and type</h2>
+            </div>
+          </div>
+          <div class="filters filters-four">
+            <label>
+              <span>Search</span>
+              <input id="publication-search" type="search" placeholder="Scholar name, title, citation, institution..." />
+            </label>
+            <label>
+              <span>Publication type</span>
+              <select id="publication-type">
+                <option value="">All publication types</option>
+              </select>
+            </label>
+            <label>
+              <span>Publication stage</span>
+              <select id="publication-stage">
+                <option value="">All stages</option>
+              </select>
+            </label>
+            <label>
+              <span>Cohort year</span>
+              <select id="publication-cohort">
+                <option value="">All cohorts</option>
+              </select>
+            </label>
+            <label>
+              <span>Country</span>
+              <select id="publication-country">
+                <option value="">All countries</option>
+              </select>
+            </label>
+          </div>
+        </section>
+
+        <section class="panel-card">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Publication Overview</p>
+              <h2>What the current publication data shows</h2>
+            </div>
+          </div>
+          <p id="publications-note" class="note-text network-note"></p>
+          <div class="mini-metrics" id="publication-summary"></div>
+        </section>
+
+        <section class="panel panel-two-up">
+          <article class="panel-card">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Format</p>
+                <h2>Publication types in view</h2>
+              </div>
+            </div>
+            <div id="publication-type-bars" class="bar-list"></div>
+          </article>
+
+          <article class="panel-card">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Stage</p>
+                <h2>How the records are distributed across time</h2>
+              </div>
+            </div>
+            <div id="publication-stage-bars" class="bar-list"></div>
+          </article>
+        </section>
+
+        <section class="panel panel-two-up">
+          <article class="panel-card">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Timeline</p>
+                <h2>Most recent publication years in view</h2>
+              </div>
+            </div>
+            <div id="publication-year-bars" class="bar-list"></div>
+          </article>
+
+          <article class="panel-card">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Authors</p>
+                <h2>Most prolific alumni in the current view</h2>
+              </div>
+            </div>
+            <div id="publication-scholar-bars" class="bar-list"></div>
+          </article>
+        </section>
+
+        <section class="panel-card">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Selected Record</p>
+              <h2>Click a scholar or publication for more detail</h2>
+            </div>
+          </div>
+          <div id="publication-detail" class="panel-inset project-detail-card" hidden></div>
+        </section>
+
+        <section class="panel-card directory-panel">
+          <div class="panel-heading directory-heading">
+            <div>
+              <p class="eyebrow">Directory</p>
+              <h2>Browse extracted publication records</h2>
+            </div>
+          </div>
+
+          <div class="table-meta">
+            <p id="publication-results-count">Loading publications...</p>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Publication</th>
+                  <th>Scholar(s)</th>
+                  <th>Type</th>
+                  <th>Stage</th>
+                  <th>Year</th>
+                  <th>Country</th>
+                </tr>
+              </thead>
+              <tbody id="publication-directory-body"></tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-shell">
+          <div class="footer-brand">
+            <img src="./assets/lsa-asc-web-rev.png" alt="LSA African Studies Center, University of Michigan" />
+            <p>Built by Marwa Hassan as a project for the African Studies Center during her Data Analyst internship.</p>
+          </div>
+          <div class="footer-grid">
+            <section class="footer-column">
+              <h3>Visit</h3>
+              <p>500 Church Street<br />Suite 500<br />Ann Arbor, MI 48109</p>
+            </section>
+            <section class="footer-column">
+              <h3>Contact</h3>
+              <a href="tel:+17346153027">734.615.3027</a>
+              <a href="tel:+17347634765">734.763.4765</a>
+              <a href="https://ii.umich.edu/asc" target="_blank" rel="noreferrer">ii.umich.edu/asc</a>
+            </section>
+            <section class="footer-column">
+              <h3>Follow ASC</h3>
+              <div class="footer-socials">
+                <a class="footer-social" href="https://www.facebook.com/UMAfricanStudies" target="_blank" rel="noreferrer">Facebook</a>
+                <a class="footer-social" href="https://twitter.com/UofMAfrica" target="_blank" rel="noreferrer">X</a>
+                <a class="footer-social" href="https://www.instagram.com/iiumich/" target="_blank" rel="noreferrer">Instagram</a>
+                <a class="footer-social" href="https://www.linkedin.com/showcase/umichasc" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a class="footer-social" href="https://www.youtube.com/user/umichASC/" target="_blank" rel="noreferrer">YouTube</a>
+              </div>
+            </section>
+          </div>
+          <div class="footer-bottom">
+            <span>A member of the International Institute</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./publications.js"></script>
+  </body>
+</html>

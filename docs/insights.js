@@ -9,19 +9,24 @@ const numberFormat = (value) => new Intl.NumberFormat("en-US").format(value ?? 0
 
 const AFRICA_COUNTRIES = new Set([
   "Algeria", "Angola", "Benin", "Botswana", "Burkina Faso", "Burundi", "Cameroon",
-  "Cape Verde", "Central African Republic", "Chad", "Comoros", "Congo", "Democratic Republic of the Congo",
-  "Dem. Rep. Congo", "Djibouti", "Egypt", "Equatorial Guinea", "Eritrea", "Eswatini",
-  "Ethiopia", "Gabon", "Gambia", "Ghana", "Guinea", "Guinea-Bissau", "Ivory Coast",
+  "Cape Verde", "Central African Republic", "Chad", "Comoros", "Congo", "Republic of the Congo",
+  "Democratic Republic of the Congo", "Dem. Rep. Congo", "Djibouti", "Egypt", "Equatorial Guinea", "Eritrea", "Eswatini",
+  "Ethiopia", "Gabon", "Gambia", "Ghana", "Guinea", "Guinea-Bissau", "Guinea Bissau", "Ivory Coast",
   "Côte d'Ivoire", "Kenya", "Lesotho", "Liberia", "Libya", "Madagascar", "Malawi", "Mali",
   "Mauritania", "Mauritius", "Morocco", "Mozambique", "Namibia", "Niger", "Nigeria", "Rwanda",
-  "Senegal", "Sierra Leone", "Somalia", "South Africa", "South Sudan", "Sudan", "Tanzania",
+  "Senegal", "Sierra Leone", "Somalia", "South Africa", "South Sudan", "Sudan", "Tanzania", "United Republic of Tanzania",
   "Togo", "Tunisia", "Uganda", "Zambia", "Zimbabwe", "Western Sahara", "Sao Tome and Principe",
 ]);
 
 const COUNTRY_ALIASES = {
   "Côte d'Ivoire": "Ivory Coast",
+  "Cote d'Ivoire": "Ivory Coast",
+  "Republic of the Congo": "Congo",
   "Democratic Republic of the Congo": "Dem. Rep. Congo",
+  "Democratic Republic of Congo": "Dem. Rep. Congo",
   DRC: "Dem. Rep. Congo",
+  "United Republic of Tanzania": "Tanzania",
+  "Guinea Bissau": "Guinea-Bissau",
 };
 
 function normalizeCountryName(name) {
@@ -36,7 +41,7 @@ async function loadInsights() {
 
   africaState.data = await response.json();
   africaState.years = [...new Set(africaState.data.series.geographyTimeline.map((item) => item.cohort_year))].sort((a, b) => a - b);
-  africaState.selectedYear = africaState.years[africaState.years.length - 1];
+  africaState.selectedYear = africaState.years[0];
 
   renderSurveyOverview();
   renderExecutiveSummary();
@@ -144,7 +149,7 @@ function wireSlider() {
   const slider = document.getElementById("year-slider");
   slider.min = 0;
   slider.max = africaState.years.length - 1;
-  slider.value = africaState.years.length - 1;
+  slider.value = 0;
   document.getElementById("selected-year").textContent = africaState.selectedYear;
   slider.addEventListener("input", (event) => {
     africaState.selectedYear = africaState.years[Number(event.target.value)];
@@ -256,7 +261,7 @@ function renderYearSummary(counts) {
 }
 
 function renderTimelineBars(counts) {
-  const entries = [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10);
+  const entries = [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 3);
   const max = Math.max(...entries.map(([, count]) => count), 1);
   document.getElementById("timeline-country-bars").innerHTML = entries
     .map(

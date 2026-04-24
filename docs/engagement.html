@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>U-M Africa Engagement</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="site-mark" href="./index.html">
+          <img class="site-logo site-logo-standard" src="./assets/lsa-asc-web.png" alt="LSA African Studies Center, University of Michigan" />
+        </a>
+        <nav class="site-nav">
+          <a href="./index.html">Dashboard</a>
+          <a href="./insights.html">Insights</a>
+          <a href="./publications.html">Publications</a>
+          <a class="active" href="./engagement.html">Engagement</a>
+        </nav>
+      </header>
+
+      <section class="hero hero-insights">
+        <div class="hero-copy">
+          <p class="eyebrow">Projects + Collaborations</p>
+          <h1>Explore U-M engagement projects across Africa.</h1>
+          <p class="lede">
+            This page maps projects and collaborations by country, college affiliation, and project type,
+            with filters that connect the map, charts, and project directory together.
+          </p>
+        </div>
+        <div class="hero-panel">
+          <div class="hero-stat">
+            <span id="engagement-total-projects">280</span>
+            <small>projects and collaborations in the current engagement dataset</small>
+          </div>
+          <div class="hero-stat">
+            <span id="engagement-total-countries">40</span>
+            <small>African countries represented by country-specific projects</small>
+          </div>
+        </div>
+      </section>
+
+      <main>
+        <section class="panel-card">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Project map</p>
+              <h2>Country-specific projects on a zoomable Africa map</h2>
+            </div>
+          </div>
+          <p class="note-text engagement-note">
+            These filters update the map, charts, and directory together. Dots represent projects tied to a single country; regional and multi-country entries remain visible in the directory and filtered summaries, but are not plotted as map points.
+          </p>
+          <div class="filters filters-four filters-embedded">
+            <label>
+              <span>Search</span>
+              <input id="engagement-search" type="search" placeholder="Project title, PI, collaborator, funding..." />
+            </label>
+            <label>
+              <span>Project type</span>
+              <select id="engagement-project-type">
+                <option value="">All project types</option>
+              </select>
+            </label>
+            <label>
+              <span>U-M college affiliation</span>
+              <select id="engagement-college">
+                <option value="">All colleges</option>
+              </select>
+            </label>
+            <label>
+              <span>Country</span>
+              <select id="engagement-country">
+                <option value="">All countries and regional entries</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="map-layout engagement-map-layout">
+            <div class="map-primary-column">
+              <div class="map-card">
+                <div class="engagement-legend engagement-legend-on-map" id="engagement-legend" aria-label="Project type legend"></div>
+                <svg id="engagement-map" viewBox="0 0 760 520" role="img" aria-label="U-M Africa engagement map"></svg>
+                <div id="engagement-map-tooltip" class="map-tooltip" hidden></div>
+              </div>
+              <div id="engagement-project-detail" class="panel-inset project-detail-card" hidden></div>
+            </div>
+            <div class="map-side">
+              <div class="mini-metrics" id="engagement-summary"></div>
+              <div class="panel-inset">
+                <h3>Projects by country</h3>
+                <div id="engagement-country-bars" class="bar-list"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel panel-two-up">
+          <article class="panel-card">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Project types</p>
+                <h2>How the visible portfolio is distributed</h2>
+              </div>
+            </div>
+            <div id="engagement-type-bars" class="bar-list"></div>
+          </article>
+
+          <article class="panel-card">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">College footprint</p>
+                <h2>Visible projects by U-M college affiliation</h2>
+              </div>
+            </div>
+            <div id="engagement-college-bars" class="bar-list"></div>
+          </article>
+        </section>
+
+        <section class="panel-card directory-panel">
+          <div class="panel-heading directory-heading">
+            <div>
+              <p class="eyebrow">Directory</p>
+              <h2>Browse the engagement records</h2>
+            </div>
+          </div>
+
+          <div class="table-meta">
+            <p id="engagement-results-count">Loading projects...</p>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Project</th>
+                  <th>Type</th>
+                  <th>PI</th>
+                  <th>College</th>
+                  <th>Country</th>
+                  <th>City</th>
+                  <th>Funding</th>
+                </tr>
+              </thead>
+              <tbody id="engagement-directory-body"></tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-shell">
+          <div class="footer-brand">
+            <img src="./assets/lsa-asc-web-rev.png" alt="LSA African Studies Center, University of Michigan" />
+            <p>Built by Marwa Hassan as a project for the African Studies Center during her Data Analyst internship.</p>
+          </div>
+          <div class="footer-grid">
+            <section class="footer-column">
+              <h3>Visit</h3>
+              <p>500 Church Street<br />Suite 500<br />Ann Arbor, MI 48109</p>
+            </section>
+            <section class="footer-column">
+              <h3>Contact</h3>
+              <a href="tel:+17346153027">734.615.3027</a>
+              <a href="tel:+17347634765">734.763.4765</a>
+              <a href="https://ii.umich.edu/asc" target="_blank" rel="noreferrer">ii.umich.edu/asc</a>
+            </section>
+            <section class="footer-column">
+              <h3>Follow ASC</h3>
+              <div class="footer-socials">
+                <a class="footer-social" href="https://www.facebook.com/UMAfricanStudies" target="_blank" rel="noreferrer">Facebook</a>
+                <a class="footer-social" href="https://twitter.com/UofMAfrica" target="_blank" rel="noreferrer">X</a>
+                <a class="footer-social" href="https://www.instagram.com/iiumich/" target="_blank" rel="noreferrer">Instagram</a>
+                <a class="footer-social" href="https://www.linkedin.com/showcase/umichasc" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a class="footer-social" href="https://www.youtube.com/user/umichASC/" target="_blank" rel="noreferrer">YouTube</a>
+              </div>
+            </section>
+          </div>
+          <div class="footer-bottom">
+            <span>A member of the International Institute</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="./engagement.js"></script>
+  </body>
+</html>

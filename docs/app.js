@@ -162,7 +162,7 @@ function wireEvents() {
 
 function renderAll() {
   renderLineChart();
-  renderBarList("top-countries", state.data.series.topCountries, "scholars", "country_of_origin");
+  renderBarList("top-countries", state.data.series.topCountries.slice(0, 4), "scholars", "country_of_origin");
   renderBarList("top-institutions", state.data.series.topInstitutions, "scholars", "institution_home");
   renderBarList("top-hosts", state.data.series.topHosts, "participations", "host_name_raw");
   renderDirectory();
