@@ -2,6 +2,8 @@
 
 A public-facing dashboard and data site for the University of Michigan African Studies Center's UMAPS program.
 
+## Live site
+https://missmarwahassan.github.io/umaps-app/
 ## What’s Inside
 
 - `Dashboard` for alumni, cohorts, hosts, and program context
